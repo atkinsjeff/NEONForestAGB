@@ -1,0 +1,36 @@
+Group,Taxa,Median specific gravity,beta0,beta1,No. of pseudodata,No. of equations1,Diameter,Diameter range (cm),R2- statistic
+Conifer,Abies < 0.35 spg*,0.33,-2.3123,2.3482,131,20,dbh,3–69,0.75
+Conifer,Abies ? 0.35 spg,0.37,-3.1774,2.6426,221,14,dbh,3–236,0.75
+Conifer,Cupressaceae < 0.30 spg,0.29,-1.9615,2.1063,48,6,dbh,3–66,0.76
+Conifer,Cupressaceae 0.30–0.39 spg,0.34,-2.7765,2.4195,164,10,dbh,3–614,0.76
+Conifer,Cupressaceae ? 0.40 spg,0.43,-2.6327,2.4757,55,6,dbh,3–109,0.76
+Conifer,Larix,0.49,-2.3012,2.3853,84,11,dbh,3–98,0.85
+Conifer,Picea < 0.35 spg,0.33,-3.03,2.5567,128,8,dbh,3–283,0.81
+Conifer,Picea ? 0.35 spg,0.37,-2.1364,2.3233,289,46,dbh,3–72,0.81
+Conifer,Pinus < 0.45 spg,0.39,-2.6177,2.4638,561,70,dbh,3–180,0.83
+Conifer,Pinus ? 0.45 spg,0.47,-3.0506,2.6465,162,28,dbh,3–56,0.83
+Conifer,Pseudotsuga,0.45,-2.4623,2.4852,253,23,dbh,3–215,0.86
+Conifer,Tsuga < 0.40 spg,0.38,-2.348,2.3876,65,9,dbh,3–85,0.85
+Conifer,Tsuga ? 0.40 spg,0.42,-2.9208,2.5697,163,14,dbh,3–172,0.85
+Hardwood,Aceraceae < 0.50 spg,0.44,-2.047,2.3852,243,43,dbh,3–66,0.84
+Hardwood,Aceraceae ? 0.50 spg,0.56,-1.8011,2.3852,200,24,dbh,3–70,0.84
+Hardwood,Betulaceae < 0.40 spg,0.37,-2.5932,2.5349,46,10,dbh,3–64,0.81
+Hardwood,Betulaceae 0.40–0.49 spg,0.47,-2.2271,2.4513,145,29,dbh,3–51,0.81
+Hardwood,Betulaceae 0.50–0.59 spg,0.55,-1.8096,2.348,134,16,dbh,3–70,0.81
+Hardwood,Betulaceae ? 0.60 spg,0.62,-2.2652,2.5349,55,11,dbh,3–47,0.81
+Hardwood,Cornaceae/Ericaceae/ Lauraceae/Platanaceae/ Rosaceae/Ulmaceae,0.47,-2.2118,2.4133,231,46,dbh,3–64,0.79
+Hardwood,"Fabaceae/Juglandaceae, Carya",0.62,-2.5095,2.6175,106,13,dbh,3–70,0.81
+Hardwood,"Fabaceae/Juglandaceae, other",0.66,-2.5095,2.5437,14,2,dbh,4–42,0.81
+Hardwood,"Fagaceae, deciduous",0.57,-2.0705,2.441,606,77,dbh,3–89,0.84
+Hardwood,"Fagaceae, evergreen",0.58,-2.2198,2.441,54,7,dbh,3–66,0.84
+Hardwood,Hamamelidaceae,0.46,-2.639,2.5466,44,6,dbh,3–53,0.79
+Hardwood,Hippocastanaceae/Tiliaceae,0.32,-2.4108,2.4177,77,11,dbh,3–56,0.83
+Hardwood,Magnoliaceae,0.4,-2.5497,2.5011,114,15,dbh,3–65,0.83
+Hardwood,Oleaceae < 0.55 spg,0.51,-2.0314,2.3524,54,9,dbh,3–43,0.84
+Hardwood,Oleaceae ? 0.55 spg,0.55,-1.8384,2.3524,49,7,dbh,3–55,0.84
+Hardwood,Salicaceae < 0.35 spg,0.31,-2.6863,2.4561,64,10,dbh,3–53,0.81
+Hardwood,Salicaceae ? 0.35 spg,0.36,-2.4441,2.4561,299,52,dbh,3–70,0.81
+Woodland,Cupressaceae2,0.5,-2.7096,2.1942,57,6,drc,4–87,0.91
+Woodland,Fabaceae/Rosaceae,0.8,-2.9255,2.4109,41,7,drc,3–60,0.89
+Woodland,Fagaceae,0.59,-3.0304,2.4982,36,5,drc,3–74,0.84
+Woodland,Pinaceae,0.51,-3.2007,2.5339,45,5,drc,3–75,0.86

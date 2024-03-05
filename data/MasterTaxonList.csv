@@ -1,0 +1,738 @@
+FIA.Code,jenkins_model,PLANTS.Code,Scientific.Name.with.Author,Common.Name,Family,habit,Genus,Species,Adj.Factor,model_name,betaZero,betaOne,chojnacky,Species.Group,Group,MedianSpecGrav,beta0,beta1
+NA,mixed hardwood,2PLANT,,,,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,2PLANT-H,,,,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,2PLANT-S,,,,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11,douglas,ABAM,Abies amabilis (Douglas ex Loudon) Douglas ex Forbes,Pacific silver fir,Pinaceae,tree,Abies,amabilis,0.602,sw3,-2.2304,2.4435,AbiesAbove0.35spg,conifer,Conifer,0.37,-3.1774,2.6426
+12,douglas,ABBA,Abies balsamea (L.) Mill.,balsam fir,Pinaceae,tree,Abies,balsamea,0.608,sw3,-2.2304,2.4435,AbiesBelow0.35spg,conifer,Conifer,0.33,-2.3123,2.3482
+15,douglas,ABCO,Abies concolor (Gord. & Glend.) Lindl. ex Hildebr.,white fir,Pinaceae,tree,Abies,concolor,0.602,sw3,-2.2304,2.4435,AbiesAbove0.35spg,conifer,Conifer,0.37,-3.1774,2.6426
+16,fir/hemlock,ABFR,Abies fraseri (Pursh) Poir.,Fraser fir,Pinaceae,tree,Abies,fraseri,0.631,sw3,-2.5384,2.4814,AbiesBelow0.35spg,conifer,Conifer,0.33,-2.3123,2.3482
+17,douglas,ABGR,Abies grandis (Douglas ex D. Don) Lindl.,grand fir,Pinaceae,tree,Abies,grandis,0.602,sw3,-2.2304,2.4435,AbiesAbove0.35spg,conifer,Conifer,0.37,-3.1774,2.6426
+12,fir/hemlock,ABIES,Abies Mill.,fir,Pinaceae,tree,NA,NA,0.608,sw3,-2.5384,2.4814,AbiesBelow0.35spg,conifer,Conifer,0.33,-2.3123,2.3482
+NA,douglas,ABLAL,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,subalpine fir,Pinaceae,tree,NA,NA,0.84,sw3,-2.2304,2.4435,AbiesBelow0.35spg,conifer,Conifer,0.33,-2.3123,2.3482
+NA,fir/hemlock,ABLO,Abies lowiana (Gordon & Glend.) A. Murray bis,Sierra white fir,Pinaceae,tree,NA,NA,0.84,sw3,-2.5384,2.4814,AbiesBelow0.35spg,conifer,Conifer,0.33,-2.3123,2.3482
+20,douglas,ABMA,Abies magnifica A. Murray bis,California red fir,Pinaceae,tree,Abies,magnifica,0.602,sw3,-2.2304,2.4435,AbiesAbove0.35spg,conifer,Conifer,0.37,-3.1774,2.6426
+22,fir/hemlock,ABPR,Abies nobilis (Douglas ex D. Don) Lindl.,noble fir,Pinaceae,tree,Abies,procera,0.602,sw3,-2.5384,2.4814,AbiesAbove0.35spg,conifer,Conifer,0.37,-3.1774,2.6426
+NA,soft maple/birch,ACBA2,Acer barbatum Michx. p.p.,southern sugar maple,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+311,soft maple/birch,ACBA3,Acer floridanum (Chapm.) Pax,southern sugar maple,Aceraceae,tree,NA,NA,1.84,hw3,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+5146,soft maple/birch,ACCI,Acer circinatum Pursh,vine maple,Aceraceae,tree,Acer,circinatum,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+NA,soft maple/birch,ACER,Acer L.,maple,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+NA,soft maple/birch,ACERAC,aceraceae sp.,,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+303,mixed hardwood,ACFA,Vachellia farnesiana,sweet acacia,Vachellia,tree,Acacia,farnesiana,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,soft maple/birch,ACGL,Acer glabrum Torr.,Rocky Mountain maple,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+NA,soft maple/birch,ACGLD4,Acer glabrum Torr. var. douglasii (Hook.) Dippel,Douglas maple,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+6006,woodland,ACKO,Acacia kauaiensis Hillebr.,koa,Acacia,tree,Acacia,koa,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+312,soft maple/birch,ACMA3,Acer macrophyllum Pursh,bigleaf maple,Aceraceae,tree,Acer,macrophyllum,0.964,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+313,soft maple/birch,ACNE2,Acer negundo L.,boxelder,Aceraceae,tree,Acer,negundo,0.792,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+NA,soft maple/birch,ACNEN,Acer negundo L.,boxelder,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+315,soft maple/birch,ACPE,Acer pensylvanicum L.,striped maple,Aceraceae,tree,Acer,pensylvanicum,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+NA,,ACRE4,Acacia retusa,catch and keep,Acacia,tree,Acacia,,,,,,,,,,,
+316,soft maple/birch,ACRU,Acer rubrum L.,red maple,Aceraceae,tree,Acer,rubrum,0.744,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+NA,soft maple/birch,ACRUR,Acer rubrum L. var. rubrum,red maple,Aceraceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+317,soft maple/birch,ACSA2,Acer saccharinum L.,silver maple,Aceraceae,tree,Acer,saccharinum,0.744,hw4,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+318,hard maple/oak/hickory/beech,ACSA3,Acer saccharum Marshall,sugar maple,Aceraceae,tree,Acer,saccharum,0.841,hw2,-2.0127,2.4342,AceraceaeAbove0.50spg,hardwood,Hardwood,0.56,-1.8011,2.3852
+NA,hard maple/oak/hickory/beech,ACSAS,Acer saccharum ,sugar maple,Aceraceae,tree,NA,NA,0.84,hw2,-2.0127,2.4342,AceraceaeAbove0.50spg,hardwood,Hardwood,0.56,-1.8011,2.3852
+319,soft maple/birch,ACSP2,Acer spicatum Lam.,mountain maple,Aceraceae,tree,Acer,spicatum,0.84,hw2,-1.9123,2.3651,AceraceaeBelow0.50spg,hardwood,Hardwood,0.44,-2.047,2.3852
+6026,,ADRI,Adelia ricinella L.,wild lime,Euphorbiaceae,shrub,Adelia,ricinella,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+333,mixed hardwood,AECA,Aesculus californica (Spach) Nutt.,California buckeye,Hippocastanaceae,tree,Aesculus,californica,0.964,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+332,mixed hardwood,AEFL,Aesculus flava Aiton,yellow buckeye,Hippocastanaceae,tree,Aesculus,flava,0.792,hw3,-2.48,2.4835,Hippocastanaceae/Tiliaceae,hardwood,Hardwood,0.32,-2.4108,2.4177
+NA,mixed hardwood,AEPA,Aesculus pavia L.,red buckeye,Hippocastanaceae,tree,Aesculus,NA,0.84,hw3,-2.48,2.4835,Hippocastanaceae/Tiliaceae,hardwood,Hardwood,0.32,-2.4108,2.4177
+NA,mixed hardwood,AEPA2,Aesculus parviflora Walter,bottlebrush buckeye,Hippocastanaceae,tree,Aesculus,NA,0.84,hw3,-2.48,2.4835,Hippocastanaceae/Tiliaceae,hardwood,Hardwood,0.32,-2.4108,2.4177
+341,mixed hardwood,AIAL,Ailanthus altissima (Mill.) Swingle,tree of heaven,Simaroubaceae,tree,Ailanthus,altissima,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,ALIN2,Alnus incana (L.) Moench ,gray alder,Betulaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+NA,aspen/alder/cottonwood/willow,ALINR,Alnus incana (L.) Moench ssp. rugosa (Du Roi) R.T. Clausen,speckled alder,Betulaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+NA,aspen/alder/cottonwood/willow,ALINT,Alnus incana,thinleaf alder,Betulaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+351,aspen/alder/cottonwood/willow,ALRU2,Alnus rubra Bong.,red alder,Betulaceae,tree,Alnus,rubra,0.75,hw1,-2.2094,2.3867,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+,,ALST11,Alyxia stellata,maile,,,,,,,,,,,,,,
+NA,aspen/alder/cottonwood/willow,ALVI5,Alnus viridis,green alder,Betulaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+NA,aspen/alder/cottonwood/willow,AMAL2,Amelanchier ainifolia,Saskatoon serviceberry,Rosaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+357,woodland,AMAR3,Amelanchier arborea (Michx. f.) Fernald,common serviceberry,Rosaceae,shrub/tree,Amelanchier,arborea,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+852,,AMEL,Amyris elemifera L.,sea torchwood,Rutaceae,shrub,Amyris,elemifera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+356,woodland,AMELA,Amelanchier Medik.,serviceberry,Rosaceae,shrub/tree,Amelanchier,spp.,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,AMFR,Amorpha fruticosa,false indigo bush,Fabaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,AMIN2,Amelanchier interior E.L. Nielsen,inland serviceberry,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+5203,woodland,AMLA,Amelanchier laevis Wiegand,Allegheny serviceberry,Rosaceae,shrub/tree,Amelanchier,laevis,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,AMMU2,Amphicarpum muehlenbergianum (Schult.) Hitchc.,Muhlenberg maidencane,Poaceae,graminoid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+358,woodland,AMSA,Amelanchier sanguinea (Pursh) DC.,roundleaf serviceberry,Rosaceae,shrub/tree,Amelanchier,sanguinea,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+6146,,ANAC4,Antirhea acutata (DC.) Urb.,placa chiquitu,Rubiaceae,shrub,Antirhea,acutata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ANAL12,Anisomeridium albisedum (Nyl.) R.C. Harris,anisomeridium lichen,Monoblastiaceae,lichen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6114,,ANIN,Andira inermis (W. Wright) Kunth ex DC.,cabbagebark tree,Fabaceae,shrub,Andira,inermis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ANTH2,Anisacanthus thurberi (Torr.) A. Gray,Thurber's desert honeysuckle,Acanthaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,ARCO3,Arctostaphylos columbiana Piper,hairy manzanita,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,ARFA,Argythamnia fasciculata (Vahl ex A. Juss.) MÃ¼ll. Arg.,broom silverbush,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ARFI2,Artemisia filifolia Torr.,sand sagebrush,Asteraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,ARNE,Arctostaphylos nevadensis A. Gray,pinemat manzanita,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,ARNO4,Artemisia nova A. Nelson,black sagebrush,Asteraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,ARPA6,Arctostaphylos patula Greene,greenleaf manzanita,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,mixed hardwood,ARSP2,Aralia spinosa L.,devil's walkingstick,Araliaceae,shrub/tree,NA,NA,NA,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,ARTR,Arisaema triphyllum (L.) Schott,Jack in the pulpit,Araceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ARTR2,Artemisia tridentata Nutt.,big sagebrush,Asteraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ARTRT2,Artemisia tripartita Rydb. ssp. tripartita,threetip sagebrush,Asteraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,ARVIM,Arctostaphylos viscida Parry ssp. mariposa (Dudley) P.V. Wells,Mariposa manzanita,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,mixed hardwood,ASAN6,Asimina angustifolia Raf.,slimleaf pawpaw,Annonaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ASIMI,Asimina Adans.,pawpaw,Annonaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,ASIN,Asclepias incarnata L.,swamp milkweed,Asclepiadaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ASIN12,Asimina incana (W. Bartram) Exell,woolly pawpaw,Annonaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ASPA18,Asimina parviflora (Michx.) Dunal,smallflower pawpaw,Annonaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+367,mixed hardwood,ASTR,Asimina triloba (L.) Dunal,pawpaw,Annonaceae,tree,Asimina,triloba,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,ATCA2,Atriplex canescens (Pursh) Nutt.,fourwing saltbush,Chenopodiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ATCO,Atriplex confertifolia (Torr. & FrÃ©m.) S. Watson,shadscale saltbush,Chenopodiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BABR,Baccharis brachyphylla A. Gray,shortleaf baccharis,Asteraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+371,soft maple/birch,BEAL2,Betula alleghaniensis Britton,yellow birch,Betulaceae,tree,Betula,alleghaniensis,0.789,hw2,-1.9123,2.3651,Betulaceae0.50-0.59spg,hardwood,Hardwood,0.55,-1.8096,2.348
+NA,soft maple/birch,BECAC,Betula Ã—caerulea Blanch. var. caerulea,blue birch,Betulaceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,Betulaceae0.50-0.59spg,hardwood,Hardwood,0.55,-1.8096,2.348
+6235,,BEDI2,Bernardia dichotoma (Willd.) MÃ¼ll. Arg.,Caribbean myrtlecroton,Euphorbiaceae,shrub,Bernardia,dichotoma,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,soft maple/birch,BEGL,Betula glandulosa Michx.,resin birch,Betulaceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,Betulaceae0.50-0.59spg,hardwood,Hardwood,0.55,-1.8096,2.348
+,,BEGL/BENA,,dwarf birch,Betulaceae,shrub,NA,NA,0.84,hw3,-1.9123,2.3651,Betulaceae0.50-0.59spg,hardwood,Hardwood,0.55,-1.8096,2.348
+372,soft maple/birch,BELE,Betula lenta L.,sweet birch,Betulaceae,tree,Betula,lenta,0.932,hw2,-1.9123,2.3651,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+376,soft maple/birch,BENE4,Betula neoalaskana Sarg.,resin birch,Betulaceae,tree,Betula,neoalaskana,0.84,hw2,-1.9123,2.3651,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+373,soft maple/birch,BENI,Betula nigra L.,river birch,Betulaceae,tree,Betula,nigra,0.792,hw2,-1.9123,2.3651,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+374,soft maple/birch,BEOC2,Betula occidentalis Hook.,water birch,Betulaceae,tree,Betula,occidentalis,0.964,hw2,-1.9123,2.3651,BetulaceaeBelow0.40spg,hardwood,Hardwood,0.37,-2.5932,2.5349
+375,soft maple/birch,BEPA,Betula papyrifera Marshall,paper birch,Betulaceae,tree,Betula,papyrifera,0.792,hw2,-1.9123,2.3651,Betulaceae0.40-0.49spg,hardwood,Hardwood,0.47,-2.2271,2.4513
+NA,soft maple/birch,BEPAC2,Betula papyrifera Marshall var. cordifolia (Regel) Fernald,mountain paper birch,Betulaceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,Betulaceae0.40-0.49spg,hardwood,Hardwood,0.47,-2.2271,2.4513
+NA,soft maple/birch,BEPAP,Betula papyrifera Marshall var. papyrifera,paper birch,Betulaceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,Betulaceae0.40-0.49spg,hardwood,Hardwood,0.47,-2.2271,2.4513
+379,soft maple/birch,BEPO,Betula populifolia Marshall,gray birch,Betulaceae,tree,Betula,populifolia,0.792,hw2,-1.9123,2.3651,Betulaceae0.40-0.49spg,hardwood,Hardwood,0.47,-2.2271,2.4513
+NA,soft maple/birch,BEPU4,Betula pumila L.,bog birch,Betulaceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,Betulaceae0.40-0.49spg,hardwood,Hardwood,0.47,-2.2271,2.4513
+NA,,BERA3,Bejaria racemosa Vent.,flyweed,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BESC,Berchemia scandens (Hill) K. Koch,Alabama supplejack,Rhamnaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BETH,Berberis thunbergii DC.,Japanese barberry,Berberidaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,soft maple/birch,BETUL,Betula L.,birch,Betulaceae,tree,NA,NA,0.84,hw2,-1.9123,2.3651,Betulaceae0.40-0.49spg,hardwood,Hardwood,0.47,-2.2271,2.4513
+NA,,BICA,Bignonia capreolata L.,crossvine,Bignoniaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BIGNO,Bignonia L.,bignonia,Bignoniaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6255,woodland,BOSU2,Bourreria succulenta Jacq.,bodywood,Boraginaceae,shrub/tree,Bourreria,succulenta,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,BOURR,Bourreria P. Br.,strongbark,Boraginaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,BRAR6,Broussaisia arguta Gaudich.,kanawao,Hydrangeaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BROV4,Brunnichia ovata (Walter) Shinners,American buckwheat vine,Polygonaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6284,woodland,BUBU,Bucida buceras L.,gregorywood,Combretaceae,tree,Bucida,buceras,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+5328,,BUCA15,Butia capitata (Mart.) Becc.,South American jelly palm,Arecaceae,palm,Butia,capitata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6295,,BUGL,Bunchosia glandulosa (Cav.) DC.,cafe forastero,Malpighiaceae,shrub,Bunchosia,glandulosa,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BUMI6,Buxbaumia minakatae Okam.,buxbaumia moss,Buxbaumiaceae,nonvascular,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+854,,BUSI,Bursera simaruba (L.) Sarg.,gumbo limbo,Burseraceae,shrub,Bursera,simaruba,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,BUTIA,Butia Becc.,jelly palm,Arecaceae,palm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6402,,CAAC3,Casearia aculeata Jacq.,rabo de ranton,Flacourtiaceae,shrub,Casearia,aculeata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CAAM2,Callicarpa americana L.,American beautyberry,Verbenaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+401,hard maple/oak/hickory/beech,CAAQ2,Carya aquatica (Michx. f.) Nutt.,water hickory,Juglandaceae,tree,Carya,aquatica,0.744,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+NA,,CACA,Cabomba caroliniana A. Gray,Carolina fanwort,Cabombaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+391,mixed hardwood,CACA18,Carpinus caroliniana Walter,American hornbeam,Betulaceae,tree,Carpinus,caroliniana,0.84,hw3,-2.48,2.4835,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+413,hard maple/oak/hickory/beech,CACA38,Carya carolinae-septentrionalis (Ashe) Engl. & Graebn.,southern shagbark hickory,Juglandaceae,tree,Carya,carolinae-septentrionalis,0.744,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,CACAV,Carpinus caroliniana Walter ssp. virginiana (Marshall) Furlow,American hornbeam,Betulaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+402,hard maple/oak/hickory/beech,CACO15,Carya cordiformis (Wangenh.) K. Koch,bitternut hickory,Juglandaceae,tree,Carya,cordiformis,0.744,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+6386,,CACY,Capparis cynophallophora L.,Jamaican caper,Capparaceae,shrub,Capparis,cynophallophora,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+421,mixed hardwood,CADE12,Castanea dentata (Marshall) Borkh.,American chestnut,Fagaceae,tree,Castanea,dentata,0.84,hw4,-2.48,2.4835,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+81,cedar/larch,CADE27,Calocedrus decurrens (Torr.) Florin,incense cedar,Cupressaceae,tree,Calocedrus,decurrens,0.588,sw1,-2.0336,2.2592,Cupressaceae0.30-0.39spg,conifer,Conifer,0.34,-2.7765,2.4195
+NA,,CADE8,Carex densa (L.H. Bailey) L.H. Bailey,dense sedge,Cyperaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6387,,CAFL2,Capparis flexuosa (L.) L.,falseteeth,Capparaceae,shrub,Capparis,flexuosa,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CAFL22,Calycanthus floridus L.,eastern sweetshrub,Calycanthaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,CAGI10,Carnegiea gigantea (Engelm.) Britton & Rose,saguaro,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+403,hard maple/oak/hickory/beech,CAGL8,Carya glabra (Mill.) Sweet,pignut hickory,Juglandaceae,tree,Carya,glabra,0.744,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+6389,,CAHA9,Capparis hastata Jacq.,broadleaf caper,Capparaceae,shrub,Capparis,hastata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+404,hard maple/oak/hickory/beech,CAIL2,Carya illinoinensis (Wangenh.) K. Koch,pecan,Juglandaceae,tree,Carya,illinoinensis,0.744,hw4,-2.0127,2.4342,Fabaceae/Juglandaceae/Carya,hardwood,Hardwood,0.62,-2.5095,2.6175
+6390,,CAIN5,Capparis indica (L.) Druce,linguam,Capparaceae,shrub,Capparis,indica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CAOD3,Carphephorus odoratissimus (J.F. Gmel.) Herb.,vanillaleaf,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+407,hard maple/oak/hickory/beech,CAOV2,Carya ovata (Mill.) K. Koch,shagbark hickory,Juglandaceae,tree,Carya,ovata,0.744,hw4,-2.0127,2.4342,Fabaceae/Juglandaceae/Carya,hardwood,Hardwood,0.62,-2.5095,2.6175
+412,hard maple/oak/hickory/beech,CAOV3,Carya ovalis (Wangenh.) Sarg.,red hickory,Juglandaceae,tree,Carya,ovalis,0.744,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+410,hard maple/oak/hickory/beech,CAPA24,Carya pallida (Ashe) Engl. & Graebn.,sand hickory,Juglandaceae,tree,Carya,pallida,0.744,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+NA,,CAPA43,Catesbaea parviflora Sw.,smallflower lilythorn,Rubiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+998,,CARA2,Campsis radicans (L.) Seem. ex Bureau,trumpet creeper,Bignoniaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,hard maple/oak/hickory/beech,CARYA,Carya Nutt.,hybrid hickory,Juglandaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+NA,hard maple/oak/hickory/beech,CASTA,Castanea Mill.,chestnut,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+6410,,CASY2,Casearia sylvestris Sw.,crackopen,Flacourtiaceae,shrub,Casearia,sylvestris,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,hard maple/oak/hickory/beech,CATO6,Carya tomentosa (Lam.) Nutt.,mockernut hickory,Juglandaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+6380,,CAWI,Canella winterana (L.) Gaertn.,wild cinnamon,Canellaceae,shrub,Canella,winterana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6425,,CAXY,Cassine xylocarpa Vent.,marbletree,Celastraceae,shrub,Cassine,xylocarpa,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CEANO,Ceanothus L.,ceanothus,Rhamnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CECA,Cedronella canariensis (L.) Willd. ex Webb & Bethel.,herb of Gilead,Lamiaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+471,mixed hardwood,CECA4,Cercis canadensis L.,eastern redbud,Fabaceae,tree,Cercis,canadensis,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+471,mixed hardwood,CECAC,Cercis canadensis L. var. canadensis,eastern redbud,Fabaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,CECO,Ceanothus cordulatus Kellogg,whitethorn ceanothus,Rhamnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CECU,Ceanothus cuneatus (Hook.) Nutt.,buckbrush,Rhamnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CEEH,Celtis ehrenbergiana (Klotzsch) Liebm.,spiny hackberry,Ulmaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CEER3,Ceratiola ericoides Michx.,sand heath,Empetraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CEHE,Ceanothus herbaceus Raf.,Jersey tea,Rhamnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CEIN3,Ceanothus integerrimus Hook. & Arn.,deerbrush,Rhamnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+461,mixed hardwood,CELA,Celtis laevigata Willd.,sugarberry,Ulmaceae,tree,Celtis,laevigata,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,CELE2,Ceanothus leucodermis Greene,chaparral whitethorn,Rhamnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,CELTI,Celtis L.,hackberry,Ulmaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+478,woodland,CEMOG,Cercocarpus montanus Raf. var. glaber (S. Watson) F.L. Martin,birchleaf mountain mahogany,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Fabaceae/Juglandaceae/Carya,NA,NA,NA,NA,NA
+NA,,CENI,Celosia nitida Vahl,West Indian cock's comb,Amaranthaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+462,mixed hardwood,CEOC,Celtis occidentalis L.,common hackberry,Ulmaceae,tree,Celtis,occidentalis,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+5432,,CEOC2,Cephalanthus occidentalis L.,common buttonbush,Rubiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3026,,CEOR7,Celastrus orbiculatus Thunb.,Oriental bittersweet,Celastraceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CEPHA,Cephalanthus L.,buttonbush,Rubiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CHAL8,Chiococca alba (L.) Hitchc.,West Indian milkberry,Rubiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CHFO,Chamaebatia foliolosa Benth.,mountain misery,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,hard maple/oak/hickory/beech,CHSE11,Chrysolepis sempervirens (Kellogg) Hjelmqvist,bush chinquapin,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+NA,,CHSI,Chromolaena sinuata (Lam.) R.M. King & H. Rob.,wavyleaf thoroughwort,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6514,woodland,CHTR2,Cheirodendron trigynum (Gaudich.) A. Heller,olapalapa,Araliaceae,tree,Cheirodendron,trigynum,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,CHVI8,Chrysothamnus viscidiflorus (Hook.) Nutt.,yellow rabbitbrush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6549,,CIBOT,Cibotium Kaulf.,manfern,Dicksoniaceae,tree fern,Cibotium,spp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6547,,CIGL,Cibotium glaucum (Sm.) Hook. & Arn.,hapu'u,Dicksoniaceae,tree fern,Cibotium,glaucum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6548,,CIME8,Cibotium menziesii Hook.,hapu'u li,Dicksoniaceae,tree fern,Cibotium,menziesii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CITR2,Cissus trifoliata (L.) L.,sorrelvine,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CLAC3,Clethra acuminata Michx.,mountain sweetpepperbush,Clethraceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+6628,woodland,CLERM,Clermontia Gaudich.,clermontia,Campanulaceae,shrub/tree,Clermontia,spp.,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,CLETH,Clethra L.,sweetpepperbush,Clethraceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+481,hard maple/oak/hickory/beech,CLKE,Cladrastis kentukea (Dum. Cours.) Rudd,Kentucky yellowwood,Fabaceae,tree,Cladrastis,kentukea,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+6615,woodland,CLMO5,Clermontia montis-loa Rock,Mauna Loa clermontia,Campanulaceae,shrub/tree,Clermontia,montis-loa,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,CLTE3,Clitoria ternatea L.,Asian pigeonwings,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,COAL2,Cornus alternifolia L. f.,alternateleaf dogwood,Cornaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,COAM,Conopholis americana (L.) Wallr.,American cancer-root,Orobanchaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,COAM2,Cornus amomum Mill.,silky dogwood,Cornaceae,tree,NA,NA,0.84,hw3,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,COAM3,Corylus americana Walter,American hazelnut,Betulaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+6693,woodland,COAR3,Colubrina arborescens (Mill.) Sarg.,greenheart,Rhamnaceae,shrub/tree,Colubrina,arborescens,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+6673,,COBA3,Coccothrinax barbadensis (Lodd. ex Mart.) Becc.,Puerto Rico silver palm,Arecaceae,palm,Coccothrinax,barbadensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,COCA,Cocculus carolinus (L.) DC.,Carolina coralbead,Menispermaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,COCCO,Coccoloba P. Br.,coccoloba,Polygonaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+6731,woodland,COCO5,Cordia collococca L.,red manjack,Boraginaceae,shrub/tree,Cordia,collococca,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,COCO6,Corylus cornuta Marshall,beaked hazelnut,Betulaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+NA,woodland,COCOC,Corylus cornuta Marshall var. californica (A. DC.) Sharp,California hazelnut,Betulaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+NA,woodland,COCOC2,Corylus cornuta Marshall var. cornuta,beaked hazelnut,Betulaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+863,woodland,CODI8,Coccoloba diversifolia Jacq.,tietongue,Polygonaceae,shrub/tree,Coccoloba,diversifolia,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+6705,,CODO,Comocladia dodonaea (L.) Urb.,poison ash,Anacardiaceae,tree,Comocladia,dodonaea,0.84,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,CODR,Cornus drummondii C.A. Mey.,roughleaf dogwood,Cornaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+864,woodland,COEL2,Colubrina elliptica (Sw.) Briz. & Stern,soldierwood,Rhamnaceae,shrub/tree,Colubrina,elliptica,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,COER3,Coprosma ernodeoides A. Gray,'aiakanene,Rubiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+491,mixed hardwood,COFL2,Cornus florida L.,flowering dogwood,Cornaceae,tree,Cornus,florida,0.932,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,mixed hardwood,COFO,Cornus foemina Mill.,stiff dogwood,Cornaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+6660,woodland,COKR,Coccoloba krugii Lindau,whitewood,Polygonaceae,shrub/tree,Coccoloba,krugii,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,COLUB,Colubrina Rich. ex Brongn.,nakedwood,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+6661,woodland,COMI,Coccoloba microstachya Willd.,puckhout,Polygonaceae,shrub/tree,Coccoloba,microstachya,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+6719,,COMO3,Coprosma montana Hillebr.,alpine mirrorplant,Rubiaceae,shrub,Coprosma,montana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+492,mixed hardwood,CONU4,Cornus nuttallii Audubon ex Torr. & A. Gray,Pacific dogwood,Cornaceae,tree,Cornus,nuttallii,0.964,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+6720,,COOC3,Coprosma ochracea W.R.B. Oliv.,Maui mirrorplant,Rubiaceae,shrub,Coprosma,ochracea,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,COPE80,Comptonia peregrina (L.) J.M. Coult.,sweet fern,Myricaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6724,,COPRO,Coprosma J.R. Forst. & G. Forst.,mirrorplant,Rubiaceae,shrub,Coprosma,spp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,CORNU,Cornus L.,dogwood,Cornaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,COROR,Coryphantha robustispina (Schott ex Engelm.) Britton & Rose ssp. robustispina,long-tubercle beehive cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,COROS,Coryphantha robustispina (Schott ex Engelm.) Britton & Rose ssp. scheeri (Muehlenpf.) N.P. Taylor,Scheer's beehive cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,COSE16,Cornus sericea L.,redosier dogwood,Cornaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+500,woodland,CRATA,Crataegus L.,hawthorn,Rosaceae,shrub/tree,Crataegus,spp.,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+500,woodland,CRATASPP,Crataegus L.,hawthorn,Rosaceae,shrub/tree,Crataegus,spp.,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,CRBE4,Croton betulinus Vahl,beechleaf croton,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+505,woodland,CRCH,Crataegus chrysocarpa Ashe,fireberry hawthorn,Rosaceae,shrub/tree,Crataegus,chrysocarpa,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+501,woodland,CRCR2,Crataegus crus-galli L.,cockspur hawthorn,Rosaceae,shrub/tree,Crataegus,crus-galli,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,CRDI8,Croton discolor Willd.,lechecillo,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CRFL2,Crataegus flava Aiton,yellowleaf hawthorn,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+6774,,CRFL23,Croton flavens L.,yellow balsam,Euphorbiaceae,shrub,Croton,flavens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CRLU2,Croton lucidus L.,firebush,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CRMA3,Crataegus macrosperma Ashe,bigfruit hawthorn,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+6767,,CROSS,Crossopetalum P. Br.,crossopetalum,Celastraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CROTO,Croton L.,croton,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6767,,CRRH,Crossopetalum rhacoma Crantz,maidenberry,Celastraceae,shrub,Crossopetalum,rhacoma,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,CRSP,Crataegus spathulata Michx.,littlehip hawthorn,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+5093,woodland,CRUN,Crataegus uniflora MÃ¼nchh.,dwarf hawthorn,Rosaceae,shrub/tree,Crataegus,uniflora,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,CYFU10,Cylindropuntia fulgida (Engelm.) F.M. Knuth,jumping cholla,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYIM2,Cylindropuntia imbricata (Haw.) F.M. Knuth,tree cholla,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYLE8,Cylindropuntia leptocaulis (DC.) F.M. Knuth,Christmas cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYLIN2,Cylindropuntia (Engelm.) Kreuzinger,cholla,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYLY2,Cyrtandra lysiosepala (A. Gray) C.B. Clarke,oppositeleaf cyrtandra,Gesneriaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYPA12,Cyrtandra paludosa Gaudich.,kanawao ke'oke'o,Gesneriaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYPL5,Cyrtandra platyphylla A. Gray,'ilihia,Gesneriaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,CYSP8,Cylindropuntia spinosior (Engelm.) F.M. Knuth,walkingstick cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,DAFR6,Dasiphora fruticosa (L.) Rydb.,shrubby cinquefoil,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,DAFRF,Dasiphora fruticosa (L.) Rydb. ssp. floribunda (Pursh) Kartesz,shrubby cinquefoil,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,DAWR2,Datura wrightii Regel,sacred thorn-apple,Solanaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,DIFR6,Ditrysinia fruticosa (W. Bartram) Govaerts & Frodin,Gulf Sebastian-bush,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,DILA10,Distictis lactiflora (Vahl) DC.,liana fragante,Bignoniaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,DIOSP,Diospyros L.,diospyros,Ebenaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,woodland,DIPA9,Dirca palustris L.,eastern leatherwood,Thymelaeaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+521,mixed hardwood,DIVI5,Diospyros virginiana L.,common persimmon,Ebenaceae,tree,Diospyros,virginiana,0.932,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,DUSC,Dubautia scabra (DC.) D.D. Keck,rough dubautia,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ECFA,Echinocereus fasciculatus (Engelm. ex B.D. Jacks.) L.D. Benson,pinkflower hedgehog cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ECFE,Echinocereus fendleri (Engelm.) Sencke ex J.N. Haage,pinkflower hedgehog cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+997,woodland,ELAN,Elaeagnus angustifolia L.,Russian olive,Elaeagnaceae,shrub/tree,Elaeagnus,angustifolia,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,ELCO,Elaeagnus commutata Bernh. ex Rydb.,silverberry,Elaeagnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+2038,woodland,ELUM,Elaeagnus umbellata Thunb.,autumn olive,Elaeagnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,ENFA,Encelia farinosa A. Gray ex Torr.,brittlebush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ENFR,Encelia frutescens (A. Gray) A. Gray,button brittlebush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,EPTR,Ephedra trifurca Torr. ex S. Watson,longleaf jointfir,Ephedraceae,tree,NA,NA,0.84,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,EPVI,Ephedra viridis Coville,mormon tea,Ephedraceae,tree,NA,NA,0.84,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7019,woodland,ERAR17,Erythroxylum areolatum L.,swamp-redwood,Erythroxylaceae,shrub/tree,Erythroxylum,areolatum,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,ERBR11,Erythroxylum brevipes DC.,brisselet,Erythroxylaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7000,,ERFR4,Erithalis fruticosa L.,blacktorch,Rubiaceae,shrub,Erithalis,fruticosa,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ERLA12,Ericameria laricifolia (A. Gray) Shinners,turpentine bush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ERNAN5,Ericameria nauseosa (Pall. ex Pursh) G.L. Nesom & Baird ssp. nauseosa var. nauseosa,rubber rabbitbrush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7021,woodland,ERRO3,Erythroxylum rotundifolium Lunan,ratwood,Erythroxylaceae,shrub/tree,Erythroxylum,rotundifolium,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,EUAM9,Euonymus americanus L.,bursting-heart,Celastraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,EUAT5,Euonymus atropurpureus Jacq.,burningbush,Celastraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7060,woodland,EUAX,Eugenia axillaris (Sw.) Willd.,white stopper,Myrtaceae,shrub/tree,Eugenia,axillaris,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,EUFO3,Eugenia foetida Pers.,boxleaf stopper,Myrtaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,EUFO5,Euonymus fortunei (Turcz.) Hand.-Maz.,winter creeper,Celastraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7096,woodland,EUGEN,Eugenia L.,stopper,Myrtaceae,shrub/tree,Eugenia,spp.,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7081,woodland,EULI,Eugenia ligustrina (Sw.) Willd.,privet stopper,Myrtaceae,shrub/tree,Eugenia,ligustrina,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+873,woodland,EURH,Eugenia rhombea (Berg) Krug & Urb.,red stopper,Myrtaceae,shrub/tree,Eugenia,rhombea,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7105,woodland,EUXE,Eugenia xerophytica Britton,aridland stopper,Myrtaceae,shrub/tree,Eugenia,xerophytica,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7135,,EXCA,Exostema caribaeum (Jacq.) Schult.,Caribbean princewood,Rubiaceae,shrub,Exostema,caribaeum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+531,hard maple/oak/hickory/beech,FAGR,Fagus grandifolia Ehrh.,American beech,Fagaceae,tree,Fagus,grandifolia,0.632,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+NA,hard maple/oak/hickory/beech,FAGUS,Fagus L.,beech,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+NA,,FEWI,Ferocactus wislizeni (Engelm.) Britton & Rose,candy barrelcactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+877,mixed hardwood,FICI,Ficus citrifolia Mill.,wild banyantree,Moraceae,tree,Ficus,citrifolia,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,FOAC,Forestiera acuminata (Michx.) Poir.,eastern swampprivet,Oleaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,FOSP2,Fouquieria splendens Engelm.,ocotillo,Fouquieriaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+541,mixed hardwood,FRAM2,Fraxinus americana L.,white ash,Oleaceae,tree,Fraxinus,americana,0.936,hw3,-2.48,2.4835,OleaceaeAbove0.55spg,hardwood,Hardwood,0.55,-1.8384,2.3524
+NA,,FRAR,Freycinetia arborea Gaudich.,'ie'ie,Pandanaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,FRAXI,Fraxinus L.,ash,Oleaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,FRCA13,Frangula caroliniana (Walter) A. Gray,Carolina buckthorn,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+548,mixed hardwood,FRCA3,Fraxinus caroliniana Mill.,Carolina ash,Oleaceae,tree,Fraxinus,caroliniana,0.936,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,woodland,FRCA6,Fremontodendron californicum (Torr.) Coville,California flannelbush,Sterculiaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,FRCAC7,Frangula californica (Eschsch.) A. Gray ssp. cuspidata (Greene) Kartesz & Gandhi,California buckthorn,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+543,mixed hardwood,FRNI,Fraxinus nigra Marshall,black ash,Oleaceae,tree,Fraxinus,nigra,0.936,hw3,-2.48,2.4835,OleaceaeBelow0.55spg,hardwood,Hardwood,0.51,-2.0314,2.3524
+544,mixed hardwood,FRPE,Fraxinus pennsylvanica Marshall,green ash,Oleaceae,tree,Fraxinus,pennsylvanica,0.936,hw3,-2.48,2.4835,OleaceaeBelow0.55spg,hardwood,Hardwood,0.51,-2.0314,2.3524
+545,mixed hardwood,FRPR,Fraxinus profunda (Bush) Bush,pumpkin ash,Oleaceae,tree,Fraxinus,profunda,0.936,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,woodland,FRPU7,Frangula purshiana (DC.) A. Gray,Cascara buckthorn,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7206,mixed hardwood,FRUH,Fraxinus uhdei (Wenzig) Lingelsh.,shamel ash,Oleaceae,tree,Fraxinus,uhdei,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,woodland,GABA,Gaylussacia baccata (Wangenh.) K. Koch,black huckleberry,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,GADU,Gaylussacia dumosa (Andrews) Torr. & A. Gray,dwarf huckleberry,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,GAFR2,Gaylussacia frondosa (L.) Torr. & A. Gray ex Torr.,blue huckleberry,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,GASH,Gaultheria shallon Pursh,salal,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,GAST2,Galactia striata (Jacq.) Urb.,Florida hammock milkpea,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,GAUR,Gaylussacia ursina (M.A. Curtis) Torr. & A. Gray ex A. Gray,bear huckleberry,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,GESE,Gelsemium sempervirens (L.) W.T. Aiton,evening trumpetflower,Loganiaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+561,mixed hardwood,GIBI2,Ginkgo biloba L.,maidenhair tree,Ginkgoaceae,tree,Ginkgo,biloba,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+552,mixed hardwood,GLTR,Gleditsia triacanthos L.,honeylocust,Fabaceae,tree,Gleditsia,triacanthos,0.932,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+555,woodland,GOLA,Gordonia lasianthus (L.) Ellis,loblolly bay,Theaceae,shrub/tree,Gordonia,lasianthus,0.792,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,GUAIA,Guaiacum L.,lignum-vitae,Zygophyllaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7299,,GUEL,Guettarda elliptica Sw.,hammock velvetseed,Rubiaceae,shrub,Guettarda,elliptica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7300,,GUKR,Guettarda krugii Urb.,frogwood,Rubiaceae,shrub,Guettarda,krugii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,GUMI,Gutierrezia microcephala (DC.) A. Gray,threadleaf snakeweed,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7286,woodland,GUOB,Guapira obtusata (Jacq.) Little,corcho prieto,Nyctaginaceae,shrub/tree,Guapira,obtusata,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7279,,GUOF,Guaiacum officinale L.,lignum-vitae,Zygophyllaceae,shrub,Guaiacum,officinale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7280,,GUSA,Guaiacum sanctum L.,holywood,Zygophyllaceae,shrub,Guaiacum,sanctum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,GUSA2,Gutierrezia sarothrae (Pursh) Britton & Rusby,broom snakeweed,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+571,mixed hardwood,GYDI,Gymnocladus dioicus (L.) K. Koch,Kentucky coffeetree,Fabaceae,tree,Gymnocladus,dioicus,0.932,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7317,,GYLU,Gymnanthes lucida Sw.,oysterwood,Euphorbiaceae,shrub/tree,Gymnanthes,lucida,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7321,woodland,HACA2,Haematoxylum campechianum L.,bloodwoodtree,Fabaceae,tree,Haematoxylum,campechianum,0.84,NA,-0.7152,1.7029,Fabaceae/Juglandaceae/Other,NA,NA,NA,-2.5095,2.5437
+581,woodland,HACA3,Halesia carolina L.,Carolina silverbell,Styracaceae,shrub/tree,Halesia,carolina,0.792,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+582,mixed hardwood,HADI3,Halesia diptera Ellis,two-wing silverbell,Styracaceae,shrub/tree,Halesia,diptera,0.792,NA,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,woodland,HATE3,Halesia tetraptera Ellis,mountain silverbell,Styracaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,HAVI2,Hackelia virginiana (L.) I.M. Johnst.,beggarslice,Boraginaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7331,,HAVI4,Hamamelis virginiana L.,American witchhazel,Hamamelidaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,HEHE,Hedera helix L.,English ivy,Araliaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7347,woodland,HEJA,Helicteres jamaicensis Jacq.,screwtree,Sterculiaceae,shrub/tree,Helicteres,jamaicensis,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,HEPU17,Heteropterys purpurea (L.) Kunth,bull withe,Malpighiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7346,,HETE21,Hedyotis terminalis (Hook. & Arn.) W.L. Wagner & D.R. Herbst,variable starviolet,Rubiaceae,shrub,Hedyotis,terminalis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,HILA2,Hibiscus laevis All.,halberdleaf rosemallow,Malvaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,HODI,Holodiscus discolor (Pursh) Maxim.,oceanspray,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,HYAR,Hydrangea arborescens L.,wild hydrangea,Hydrangeaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,HYBR3,Hypericum brachyphyllum (Spach) Steud.,coastal plain St. Johnswort,Clusiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,HYTR2,Hylocereus trigonus (Haw.) Saff.,strawberry-pear,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,HYUN3,Hylocereus undatus (Haw.) Britton & Rose,nightblooming cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7453,mixed hardwood,ILAN,Ilex anomala Hook. & Arn.,Hawai'i holly,Aquifoliaceae,tree,Ilex,anomala,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7454,mixed hardwood,ILAQ80,Ilex aquifolium L.,English holly,Aquifoliaceae,tree,Ilex,aquifolium,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7455,mixed hardwood,ILCA,Ilex cassine L.,dahoon,Aquifoliaceae,tree,Ilex,cassine,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ILCO,Ilex coriacea (Pursh) Chapm.,large gallberry,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ILDE,Ilex decidua Walter,possumhaw,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+591,pine,ILEX,Ilex L.,holly,Aquifoliaceae,tree,NA,NA,0.932,hw3,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+NA,,ILFL,Illicium floridanum Ellis,Florida anisetree,Illiciaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ILGL,Ilex glabra (L.) A. Gray,inkberry,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,pine,ILMO,Ilex montana Torr. & A. Gray ex A. Gray,mountain holly,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+NA,pine,ILMU,"Ilex mucronata (L.) Powell, Savolainen & Andrews",catberry,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,ILMY,Ilex myrtifolia Walter,myrtle dahoon,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+591,pine,ILOP,Ilex opaca Aiton,American holly,Aquifoliaceae,tree,Ilex,opaca,0.932,hw3,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+NA,pine,ILVE,Ilex verticillata (L.) A. Gray,common winterberry,Aquifoliaceae,tree,NA,NA,0.84,hw3,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+7469,pine,ILVO,Ilex vomitoria Aiton,yaupon,Aquifoliaceae,tree,Ilex,vomitoria,0.84,hw3,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+NA,,IPST2,Ipomoea steudelii Millsp.,Steudel's morning-glory,Convolvulaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ISTE2,Isocoma tenuisecta Greene,burroweed,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ITVI,Itea virginica L.,Virginia sweetspire,Grossulariaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,JAAM,Jamesia americana Torr. & A. Gray,fivepetal cliffbush,Hydrangeaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7487,woodland,JABE,Jacquinia berteroi Spreng.,bois bande,Theophrastaceae,shrub/tree,Jacquinia,berteroi,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,JACQU,Jacquemontia Choisy,clustervine,Convolvulaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,JACQU2,Jacquinia L.,jacquinia,Theophrastaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,JACU3,Jacquemontia cumanensis (Kunth) Kuntze,thicket clustervine,Convolvulaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,JAFL,Jasminum fluminense Vell.,jazmin de trapo,Oleaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+601,mixed hardwood,JUCI,Juglans cinerea L.,butternut,Juglandaceae,tree,Juglans,cinerea,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,cedar/larch,JUCO6,Juniperus communis L.,common juniper,Cupressaceae,tree,NA,NA,0.84,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+NA,cedar/larch,JUCOD,Juniperus communis L. var. depressa Pursh,common juniper,Cupressaceae,tree,NA,NA,0.84,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+602,mixed hardwood,JUNI,Juglans nigra L.,black walnut,Juglandaceae,tree,Juglans,nigra,0.872,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+65,cedar/larch,JUOS,Juniperus osteosperma (Torr.) Little,Utah juniper,Cupressaceae,tree,Juniperus,osteosperma,0.352,sw1,-2.0336,2.2592,Cupressaceae2,woodland,Woodland,0.5,-2.7096,2.1942
+66,cedar/larch,JUSC2,Juniperus scopulorum Sarg.,Rocky Mountain juniper,Cupressaceae,tree,Juniperus,scopulorum,0.352,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+68,cedar/larch,JUVI,Juniperus virginiana L.,eastern redcedar,Cupressaceae,tree,Juniperus,virginiana,0.631,sw1,-2.0336,2.2592,CupressaceaeAbove0.40spg,conifer,Conifer,0.43,-2.6327,2.4757
+NA,cedar/larch,JUVIV,Juniperus virginiana L. var. virginiana,eastern redcedar,Cupressaceae,tree,NA,NA,0.84,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+NA,woodland,KALA,Kalmia latifolia L.,mountain laurel,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,KALMI,Kalmia L.,laurel,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7514,woodland,KRFE,Krugiodendron ferreum (Vahl) Urb.,leadwood,Rhamnaceae,shrub/tree,Krugiodendron,ferreum,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,KRLA2,Krascheninnikovia lanata (Pursh) A. Meeuse & Smit,winterfat,Chenopodiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LACA2,Lantana camara L.,lantana,Verbenaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LAEX,Lantana exarata Urb. & Ekman,Caribbean shrubverbena,Verbenaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LAGR,Lactuca graminifolia Michx.,grassleaf lettuce,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7519,,LAHE2,Labordia hedyosmifolia Baill.,bog labordia,Loganiaceae,forb/herb,Labordia,hedyosmifolia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+71,spruce,LALA,Larix laricina (Du Roi) K. Koch,tamarack,Pinaceae,tree,Larix,laricina,0.631,sw5,-2.0773,2.3323,Larix,conifer,Conifer,0.49,-2.3012,2.3853
+NA,,LANTA,Lantana L.,lantana,Verbenaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LARE2,Lantana reticulata Pers.,netted shrubverbena,Verbenaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70,spruce,LARIX,Larix Mill.,larch,Pinaceae,tree,Larix,spp.,0.631,sw5,-2.0773,2.3323,Larix,conifer,Conifer,0.49,-2.3012,2.3853
+NA,,LATR2,Larrea tridentata (DC.) Coville,creosote bush,Zygophyllaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6052,woodland,LEBI2,Lespedeza bicolor Turcz.,shrub lespedeza,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,LEGR,Ledum groenlandicum Oeder,bog Labrador tea,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,LEHI2,Lespedeza hirta (L.) Hornem.,hairy lespedeza,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7565,woodland,LELE10,Leucaena leucocephala (Lam.) de Wit,white leadtree,Fabaceae,tree,Leucaena,leucocephala,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,LEMO5,Leucothrinax morrisii (H. Wendl.) C.Lewis & Zona,Key thatch palm,Arecaceae,palm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LEPA11,Ledum palustre L.,marsh Labrador tea,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7556,,LEQU,Leptocereus quadricostatus (Bello) Britton & Rose,pitahaya,Cactaceae,cactus,Leptocereus,quadricostatus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,LIBE3,Lindera benzoin (L.) Blume,northern spicebush,Lauraceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,LIBEB,Lindera benzoin (L.) Blume var. benzoin,northern spicebush,Lauraceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7577,woodland,LIJA,Ligustrum japonicum Thunb.,Japanese privet,Oleaceae,shrub/tree,Ligustrum,japonicum,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,LIOB,Ligustrum obtusifolium Siebold & Zucc.,border privet,Oleaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,LISI,Ligustrum sinense Lour.,Chinese privet,Oleaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,LIST,Linum striatum Walter,ridged yellow flax,Linaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+611,mixed hardwood,LIST2,Liquidambar styraciflua L.,sweetgum,Hamamelidaceae,tree,Liquidambar,styraciflua,0.749,hw3,-2.48,2.4835,Hamamelidaceae,hardwood,Hardwood,0.46,-2.639,2.5466
+621,mixed hardwood,LITU,Liriodendron tulipifera L.,tuliptree,Magnoliaceae,tree,Liriodendron,tulipifera,0.852,hw3,-2.48,2.4835,Magnoliaceae,hardwood,Hardwood,0.4,-2.5497,2.5011
+NA,woodland,LIVU,Ligustrum vulgare L.,European privet,Oleaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,LOCA7,Lonicera canadensis W. Bartram ex Marshall,American fly honeysuckle,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LOIN4,Lonicera interrupta Benth.,chaparral honeysuckle,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LOJA,Lonicera japonica Thunb.,Japanese honeysuckle,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LOMA6,Lonicera maackii (Rupr.) Herder,Amur honeysuckle,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LOMO2,Lonicera morrowii A. Gray,Morrow's honeysuckle,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LONIC,Lonicera L.,honeysuckle,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,LUAL4,Lupinus albifrons Benth.,silver lupine,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,LYBE,Lycium berlandieri Dunal,Berlandier's wolfberry,Solanaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYCIU,Lycium L.,desert-thorn,Solanaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYEX,Lycium exsertum A. Gray,Arizona desert-thorn,Solanaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYFE,Lyonia ferruginea (Walter) Nutt.,rusty staggerbush,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYLI,Lyonia ligustrina (L.) DC.,maleberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYLIL,Lyonia ligustrina (L.) DC. var. ligustrina,maleberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYLU3,Lyonia lucida (Lam.) K. Koch,fetterbush lyonia,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,LYONI,Lyonia Nutt.,staggerbush,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+651,mixed hardwood,MAAC,Magnolia acuminata (L.) L.,cucumber tree,Magnoliaceae,tree,Magnolia,acuminata,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+655,mixed hardwood,MAFR,Magnolia fraseri Walter,mountain magnolia,Magnoliaceae,tree,Magnolia,fraseri,0.84,hw3,-2.48,2.4835,Magnoliaceae,hardwood,Hardwood,0.4,-2.5497,2.5011
+650,mixed hardwood,MAGNO,Magnolia L.,magnolia,Magnoliaceae,tree,NA,NA,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+652,mixed hardwood,MAGR4,Magnolia grandiflora L.,southern magnolia,Magnoliaceae,tree,Magnolia,grandiflora,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,MAGR9,Mammillaria grahamii Engelm.,Graham's nipple cactus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+885,,MAIN3,Mangifera indica L.,mango,Anacardiaceae,tree,Mangifera,indica,0.84,NA,NA,NA,NA,NA,NA,NA,NA,NA
+660,mixed hardwood,MALUS,Malus Mill.,apple,Rosaceae,shrub/tree,Malus,spp.,NA,NA,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+654,mixed hardwood,MAMA2,Magnolia macrophylla Michx.,bigleaf magnolia,Magnoliaceae,tree,Magnolia,macrophylla,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,MANE2,Mahonia nervosa (Pursh) Nutt.,Cascade barberry,Berberidaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+641,mixed hardwood,MAPO,Maclura pomifera (Raf.) C.K. Schneid.,Osage-orange,Moraceae,tree,Maclura,pomifera,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7699,,MAPO5,Maytenus ponceana Britton,ponce mayten,Celastraceae,shrub,Maytenus,ponceana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7630,,MAPO6,Machaonia portoricensis Baill.,Puerto Rico alfilerillo,Rubiaceae,shrub,Machaonia,portoricensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+658,mixed hardwood,MATR,Magnolia tripetala (L.) L.,umbrella-tree,Magnoliaceae,tree,Magnolia,tripetala,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,MAUN3,Macfadyena unguis-cati (L.) A.H. Gentry,catclawvine,Bignoniaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+653,mixed hardwood,MAVI2,Magnolia virginiana L.,sweetbay,Magnoliaceae,tree,Magnolia,virginiana,0.792,hw3,-2.48,2.4835,Magnoliaceae,hardwood,Hardwood,0.4,-2.5497,2.5011
+993,mixed hardwood,MEAZ,Melia azedarach L.,Chinaberrytree,Meliaceae,tree,Melia,azedarach,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7717,,MEBI,Melicoccus bijugatus Jacq.,Spanish lime,Sapindaceae,shrub,Melicoccus,bijugatus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7724,,MECL,Melicope clusiifolia (A. Gray) T.G. Hartley & B.C. Stone,kukaemoa,Rutaceae,shrub,Melicope,clusiifolia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,MEFE,Menziesia ferruginea Sm.,rusty menziesia,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7754,,MELIC3,Melicope (J.R. Forst. & G. Forst.) T.G. Hartley & B.C. Stone,melicope,Rutaceae,shrub,Melicope,spp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7783,woodland,MEPO5,Metrosideros polymorpha Gaudich.,'ohi'a lehua,Myrtaceae,shrub/tree,Metrosideros,polymorpha,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7749,,MERA2,Melicope radiata (H. St. John) T.G. Hartley & B.C. Stone,kapu melicope,Rutaceae,shrub,Melicope,radiata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+681,mixed hardwood,MOAL,Morus alba L.,white mulberry,Moraceae,tree,Morus,alba,0.932,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7845,woodland,MOCE2,Morella cerifera (L.) Small,wax myrtle,Myricaceae,shrub/tree,Morella,cerifera,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,MORU,Monarda russeliana Nutt. ex Sims,redpurple beebalm,Lamiaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+682,mixed hardwood,MORU2,Morus rubra L.,red mulberry,Moraceae,tree,Morus,rubra,0.932,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,MORUS,Morus L.,mulberry,Moraceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7869,,MUEX2,Murraya exotica L.,Chinese box,Rutaceae,shrub,Murraya,exotica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7922,woodland,MYLE2,Myrsine lessertiana A. DC.,kolea lau nui,Myrsinaceae,shrub/tree,Myrsine,lessertiana,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+7883,,MYSA,Myoporum sandwicense (A. DC.) A. Gray,naio,Myoporaceae,,Myoporum,sandwicense,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7926,woodland,MYSA2,Myrsine sandwicensis A. DC.,kokea lau li'i,Myrsinaceae,shrub/tree,Myrsine,sandwicensis,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+691,mixed hardwood,NYAQ2,Nyssa aquatica L.,water tupelo,Cornaceae,tree,Nyssa,aquatica,0.841,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+694,mixed hardwood,NYBI,Nyssa biflora Walter,swamp tupelo,Cornaceae,tree,Nyssa,biflora,0.841,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+690,mixed hardwood,NYSSA,Nyssa L.,tupelo,Cornaceae,tree,NA,NA,0.841,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+693,mixed hardwood,NYSY,Nyssa sylvatica Marshall,blackgum,Cornaceae,tree,Nyssa,sylvatica,0.841,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,OECE,Oemleria cerasiformis (Torr. & A. Gray ex Hook. & Arn.) Landon,Indian plum,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,OPEN3,Opuntia engelmannii Salm-Dyck ex Engelm.,cactus apple,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,OPMA8,Opuntia macrocentra Engelm.,purple pricklypear,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,OPPH,Opuntia phaeacantha Engelm.,tulip pricklypear,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,OPUNT,Opuntia Mill.,pricklypear,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+701,mixed hardwood,OSVI,Ostrya virginiana (Mill.) K. Koch,hophornbeam,Betulaceae,tree,Ostrya,virginiana,0.84,hw3,-2.48,2.4835,BetulaceaeAbove0.60spg,hardwood,Hardwood,0.62,-2.2652,2.5349
+711,mixed hardwood,OXAR,Oxydendrum arboreum (L.) DC.,sourwood,Ericaceae,tree,Oxydendrum,arboreum,0.84,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,PAFL6,Parkinsonia florida (Benth. ex A. Gray) S. Watson,blue paloverde,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,PAIN2,Parthenium incanum Kunth,mariola,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,PAQU,Panax quinquefolius L.,American ginseng,Araliaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,PAQU2,Parthenocissus quinquefolia (L.) Planch.,Virginia creeper,Vitaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+712,mixed hardwood,PATO2,Paulownia tomentosa (Thunb.) Siebold & Zucc. ex Steud.,princesstree,Scrophulariaceae,tree,Paulownia,tomentosa,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+7211,woodland,PEAM3,Persea americana Mill.,avocado,Lauraceae,shrub/tree,Persea,americana,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+721,woodland,PEBO,Persea borbonia (L.) Spreng.,redbay,Lauraceae,shrub/tree,Persea,borbonia,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,PEGR3,Peniocereus greggii (Engelm.) Britton & Rose,nightblooming cereus,Cactaceae,cactus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6511,woodland,PEPA37,Persea palustris (Raf.) Sarg.,swamp bay,Lauraceae,shrub/tree,Persea,palustris,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8131,,PESA3,Perrottetia sandwicensis A. Gray,olomea,Celastraceae,shrub,Perrottetia,sandwicensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,PHEP,Phyllanthus epiphyllanthus L.,swordbush,Euphorbiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,PHHI2,Philadelphus hirsutus Nutt.,streambank mock orange,Hydrangeaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+91,spruce,PIAB,Picea abies (L.) Karst.,Norway spruce,Pinaceae,tree,Picea,abies,0.631,sw5,-2.0773,2.3323,PiceaAbove0.35spg,conifer,Conifer,0.37,-2.1364,2.3233
+8169,woodland,PIAC,Pictetia aculeata (Vahl) Urb.,fustic,Fabaceae,tree,Pictetia,aculeata,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+101,pine,PIAL,Pinus albicaulis Engelm.,whitebark pine,Pinaceae,tree,Pinus,albicaulis,0.458,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+8211,woodland,PIAL3,Pisonia albida (Heimerl) Britton ex Standl.,corcho bobo,Nyctaginaceae,shrub/tree,Pisonia,albida,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,spruce,PICEA,Picea A. Dietr.,spruce,Pinaceae,tree,NA,NA,0.84,sw5,-2.0773,2.3323,PiceaAbove0.35spg,conifer,Conifer,0.37,-2.1364,2.3233
+107,pine,PICL,Pinus clausa (Chapm. ex Engelm.) Vasey ex Sarg.,sand pine,Pinaceae,tree,Pinus,clausa,1.011,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+108,pine,PICO,Pinus contorta Douglas ex Loudon,lodgepole pine,Pinaceae,tree,Pinus,contorta,0.883,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+108,pine,PICOL,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,lodgepole pine,Pinaceae,tree,Pinus,contorta,0.883,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+8220,woodland,PIDU,Pithecellobium dulce (Roxb.) Benth.,monkeypod,Fabaceae,tree,Pithecellobium,dulce,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+110,pine,PIEC2,Pinus echinata Mill.,shortleaf pine,Pinaceae,tree,Pinus,echinata,0.763,sw4,-2.5356,2.4349,PinusAbove0.45spg,conifer,Conifer,0.47,-3.0506,2.6465
+106,pine,PIED,Pinus edulis Engelm.,twoneedle pinyon,Pinaceae,tree,Pinus,edulis,0.352,sw4,-2.5356,2.4349,Pinaceae,woodland,Woodland,0.51,-3.2007,2.5339
+111,pine,PIEL,Pinus elliottii Engelm.,slash pine,Pinaceae,tree,Pinus,elliottii,0.922,sw4,-2.5356,2.4349,PinusAbove0.45spg,conifer,Conifer,0.47,-3.0506,2.6465
+93,spruce,PIEN,Picea engelmannii Parry ex Engelm.,Engelmann spruce,Pinaceae,tree,Picea,engelmannii,0.442,sw5,-2.0773,2.3323,PiceaBelow0.35spg,conifer,Conifer,0.33,-3.03,2.5567
+113,pine,PIFL2,Pinus flexilis James,limber pine,Pinaceae,tree,Pinus,flexilis,0.458,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+94,spruce,PIGL,Picea glauca (Moench) Voss,white spruce,Pinaceae,tree,Picea,glauca,0.608,sw5,-2.0773,2.3323,PiceaAbove0.35spg,conifer,Conifer,0.37,-2.1364,2.3233
+115,pine,PIGL2,Pinus glabra Walter,spruce pine,Pinaceae,tree,Pinus,glabra,1.011,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+116,pine,PIJE,Pinus jeffreyi Balf.,Jeffrey pine,Pinaceae,tree,Pinus,jeffreyi,0.434,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+117,pine,PILA,Pinus lambertiana Douglas,sugar pine,Pinaceae,tree,Pinus,lambertiana,0.557,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+95,spruce,PIMA,"Picea mariana (Mill.) Britton, Sterns & Poggenb.",black spruce,Pinaceae,tree,Picea,mariana,0.608,sw5,-2.0773,2.3323,PiceaAbove0.35spg,conifer,Conifer,0.37,-2.1364,2.3233
+119,pine,PIMO3,Pinus monticola Douglas ex D. Don,western white pine,Pinaceae,tree,Pinus,monticola,0.574,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+NA,pine,PINUS,Pinus L.,pine,Pinaceae,tree,NA,NA,0.84,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+121,pine,PIPA2,Pinus palustris Mill.,longleaf pine,Pinaceae,tree,Pinus,palustris,0.922,sw4,-2.5356,2.4349,PinusAbove0.45spg,conifer,Conifer,0.47,-3.0506,2.6465
+122,pine,PIPO,Pinus ponderosa Lawson & C. Lawson,ponderosa pine,Pinaceae,tree,Pinus,ponderosa,0.434,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+NA,pine,PIPOS,Pinus ponderosa Lawson & C. Lawson var. scopulorum Engelm.,ponderosa pine,Pinaceae,tree,NA,NA,0.84,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+123,pine,PIPU5,Pinus pungens Lamb.,Table Mountain pine,Pinaceae,tree,Pinus,pungens,1.011,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+125,pine,PIRE,Pinus resinosa Aiton,red pine,Pinaceae,tree,Pinus,resinosa,0.729,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+126,pine,PIRI,Pinus rigida Mill.,pitch pine,Pinaceae,tree,Pinus,rigida,1.011,sw4,-2.5356,2.4349,PinusAbove0.45spg,conifer,Conifer,0.47,-3.0506,2.6465
+8173,,PIRO6,Pilosocereus royenii (L.) Byles & Rowley,Royen's tree cactus,Cactaceae,cactus,Pilosocereus,royenii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+97,spruce,PIRU,Picea rubens Sarg.,red spruce,Pinaceae,tree,Picea,rubens,0.608,sw5,-2.0773,2.3323,PiceaAbove0.35spg,conifer,Conifer,0.37,-2.1364,2.3233
+127,pine,PISA2,Pinus sabiniana Douglas ex Douglas,California foothill pine,Pinaceae,tree,Pinus,sabiniana,0.458,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+129,pine,PIST,Pinus strobus L.,eastern white pine,Pinaceae,tree,Pinus,strobus,0.729,sw4,-2.5356,2.4349,PinusBelow0.45spg,conifer,Conifer,0.39,-2.6177,2.4638
+NA,,PISTA,Pistacia L.,pistache,Anacardiaceae,tree,NA,NA,0.84,NA,NA,NA,NA,NA,NA,NA,NA,NA
+131,pine,PITA,Pinus taeda L.,loblolly pine,Pinaceae,tree,Pinus,taeda,0.763,sw4,-2.5356,2.4349,PinusAbove0.45spg,conifer,Conifer,0.47,-3.0506,2.6465
+8223,woodland,PIUN,Pithecellobium unguis-cati (L.) Benth.,catclaw blackbead,Fabaceae,tree,Pithecellobium,unguis-cati,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+132,pine,PIVI2,Pinus virginiana Mill.,Virginia pine,Pinaceae,tree,Pinus,virginiana,1.011,sw4,-2.5356,2.4349,NA,NA,NA,NA,NA,NA
+8266,mixed hardwood,PLAL,Plumeria alba L.,nosegaytree,Apocynaceae,tree,Plumeria,alba,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+722,mixed hardwood,PLAQ,Planera aquatica J.F. Gmel.,planertree,Ulmaceae,tree,Planera,aquatica,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+731,mixed hardwood,PLOC,Platanus occidentalis L.,American sycamore,Platanaceae,tree,Platanus,occidentalis,0.792,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+741,aspen/alder/cottonwood/willow,POBA2,Populus balsamifera L.,balsam poplar,Salicaceae,tree,Populus,balsamifera,0.691,hw1,-2.2094,2.3867,SalicaceaeBelow0.35spg,hardwood,Hardwood,0.31,-2.6863,2.4561
+742,aspen/alder/cottonwood/willow,PODE3,Populus deltoides W. Bartram ex Marshall,eastern cottonwood,Salicaceae,tree,Populus,deltoides,0.691,hw1,-2.2094,2.3867,SalicaceaeAbove0.35spg,hardwood,Hardwood,0.36,-2.4441,2.4561
+8275,woodland,POFL20,Poitea florida (Vahl) Lavin,wattapama,Fabaceae,tree,Poitea,florida,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+743,aspen/alder/cottonwood/willow,POGR4,Populus grandidentata Michx.,bigtooth aspen,Salicaceae,tree,Populus,grandidentata,0.691,hw1,-2.2094,2.3867,SalicaceaeAbove0.35spg,hardwood,Hardwood,0.36,-2.4441,2.4561
+NA,woodland,POPA34,Poitea paucifolia (DC.) Lavin,retama,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,POPUL,Populus L.,cottonwood,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,,POSE,Poa secunda J. Presl,Sandberg bluegrass,Poaceae,graminoid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,POTR4,Poncirus trifoliata (L.) Raf.,hardy orange,Rutaceae,shrub/tree,NA,NA,NA,NA,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+746,aspen/alder/cottonwood/willow,POTR5,Populus tremuloides Michx.,quaking aspen,Salicaceae,tree,Populus,tremuloides,0.691,hw1,-2.2094,2.3867,SalicaceaeAbove0.35spg,hardwood,Hardwood,0.36,-2.4441,2.4561
+766,woodland,PRAM,Prunus americana Marshall,American plum,Rosaceae,shrub/tree,Prunus,americana,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,PRAN3,Prunus angustifolia Marshall,Chickasaw plum,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+771,mixed hardwood,PRAV,Prunus avium (L.) L.,sweet cherry,Rosaceae,shrub/tree,Prunus,avium,NA,NA,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+768,woodland,PREM,Prunus emarginata (Douglas ex Hook.) D. Dietr.,bitter cherry,Rosaceae,shrub/tree,Prunus,emarginata,0.964,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,PRENA,Prenanthes L.,rattlesnakeroot,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+756,woodland,PRGL2,Prosopis glandulosa Torr.,honey mesquite,Fabaceae,tree,Prosopis,glandulosa,0.651,NA,-0.7152,1.7029,Fabaceae/Juglandaceae/Other,NA,NA,NA,-2.5095,2.5437
+NA,woodland,PRJU3,Prosopis juliflora (Sw.) DC.,mesquite,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,Fabaceae/Juglandaceae/Other,NA,NA,NA,-2.5095,2.5437
+6708,woodland,PRME,Prunus mexicana S. Watson,Mexican plum,Rosaceae,shrub/tree,Prunus,mexicana,0.792,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+761,woodland,PRPE2,Prunus pensylvanica L. f.,pin cherry,Rosaceae,shrub/tree,Prunus,pensylvanica,0.792,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,woodland,PRPEP,Prunus pensylvanica L. f. var. pensylvanica,pin cherry,Rosaceae,shrub/tree,NA,NA,0.792,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,,PRSE,Prenanthes serpentaria Pursh,cankerweed,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+762,mixed hardwood,PRSE2,Prunus serotina Ehrh.,black cherry,Rosaceae,shrub/tree,Prunus,serotina,0.792,NA,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+762,mixed hardwood,PRSES,Prunus serotina Ehrh. var. serotina,black cherry,Rosaceae,shrub/tree,NA,NA,0.792,NA,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,mixed hardwood,PRUM,Prunus umbellata Elliott,hog plum,Rosaceae,shrub/tree,NA,NA,0.792,NA,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+760,mixed hardwood,PRUNU,Prunus L.,plum,Rosaceae,shrub/tree,Prunus,spp.,0.792,NA,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+757,woodland,PRVE,Prosopis velutina Wooton,velvet mesquite,Fabaceae,tree,Prosopis,velutina,0.651,NA,-0.7152,1.7029,Fabaceae/Juglandaceae/Other,NA,NA,NA,-2.5095,2.5437
+763,mixed hardwood,PRVI,Prunus virginiana L.,chokecherry,Rosaceae,shrub/tree,Prunus,virginiana,NA,NA,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+8355,woodland,PSCA,Psidium cattleianum Sabine,strawberry guava,Myrtaceae,shrub/tree,Psidium,cattleianum,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8373,,PSHA3,Psychotria hawaiiensis (A. Gray) Fosberg,kopiko 'ula,Rubiaceae,shrub,Psychotria,hawaiiensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+202,douglas,PSME,Pseudotsuga menziesii (Mirb.) Franco,Douglas-fir,Pinaceae,tree,Pseudotsuga,menziesii,0.526,sw3,-2.2304,2.4435,Pseudotsuga,conifer,Conifer,0.45,-2.4623,2.4852
+NA,douglas,PSMEM,Pseudotsuga menziesii (Mirb.) Franco var. menziesii,Douglas-fir,Pinaceae,tree,NA,NA,0.84,sw3,-2.2304,2.4435,Pseudotsuga,conifer,Conifer,0.45,-2.4623,2.4852
+NA,woodland,PUST,Purshia stansburiana (Torr.) Henrickson,Stansbury cliffrose,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,PUTR2,Purshia tridentata (Pursh) DC.,antelope bitterbrush,Rosaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8421,mixed hardwood,PYCA80,Pyrus calleryana Decne.,Callery pear,Rosaceae,tree,Pyrus,calleryana,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,PYPU,Pyrularia pubera Michx.,buffalo nut,Santalaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8420,mixed hardwood,PYRUS,Pyrus L.,pear,Rosaceae,tree,Pyrus,Spp.,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+802,hard maple/oak/hickory/beech,QUAL,Quercus alba L.,white oak,Fagaceae,tree,Quercus,alba,0.77,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+804,hard maple/oak/hickory/beech,QUBI,Quercus bicolor Willd.,swamp white oak,Fagaceae,tree,Quercus,bicolor,0.77,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+8441,hard maple/oak/hickory/beech,QUCH,Quercus chapmanii Sarg.,Chapman oak,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+805,hard maple/oak/hickory/beech,QUCH2,Quercus chrysolepis Liebm.,canyon live oak,Fagaceae,tree,Quercus,chrysolepis,0.84,hw4,-2.0127,2.4342,NA,NA,NA,NA,NA,NA
+806,hard maple/oak/hickory/beech,QUCO2,Quercus coccinea Münchh.,scarlet oak,Fagaceae,tree,Quercus,coccinea,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+807,hard maple/oak/hickory/beech,QUDO,Quercus douglasii Hook. & Arn.,blue oak,Fagaceae,tree,Quercus,douglasii,0.84,hw4,-2.0127,2.4342,Fagaceae,woodland,Woodland,0.59,-3.0304,2.4982
+807,hard maple/oak/hickory/beech,QUDO,Quercus douglasii Hook. & Arn.,blue oak,Fagaceae,tree,Quercus,douglasii,0.84,hw4,-2.0127,2.4342,FagaceaeEvergreen,hardwood,Hardwood,0.58,-2.2198,2.441
+809,hard maple/oak/hickory/beech,QUEL,Quercus ellipsoidalis E.J. Hill,northern pin oak,Fagaceae,tree,Quercus,ellipsoidalis,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+833,hard maple/oak/hickory/beech,QUERC,Quercus L.,oak,Fagaceae,tree,NA,NA,0.811,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+812,hard maple/oak/hickory/beech,QUFA,Quercus falcata Michx.,southern red oak,Fagaceae,tree,Quercus,falcata,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+8438,hard maple/oak/hickory/beech,QUFU,Quercus fusiformis Small,Texas live oak,Fagaceae,tree,Quercus,fusiformis,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+8441,hard maple/oak/hickory/beech,QUGE2,Quercus geminata Small,sand live oak,Fagaceae,tree,Quercus,geminata,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+831,hard maple/oak/hickory/beech,QUHE,Quercus Ã—heterophylla Michx. f. (pro sp.),Bartram oak,Fagaceae,tree,NA,NA,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+8449,hard maple/oak/hickory/beech,QUHE2,Quercus hemisphaerica W. Bartram ex Willd.,Darlington oak,Fagaceae,tree,Quercus,hemisphaerica,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+842,hard maple/oak/hickory/beech,QUIN,Quercus incana W. Bartram,bluejack oak,Fagaceae,tree,Quercus,incana,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+816,hard maple/oak/hickory/beech,QUIN7,Quercus inopina Ashe,sandhill oak,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+818,hard maple/oak/hickory/beech,QUKE,Quercus kelloggii Newberry,California black oak,Fagaceae,tree,Quercus,kelloggii,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+8514,hard maple/oak/hickory/beech,QULA,Quercus laceyi Small,Lacey oak,Fagaceae,tree,Quercus,laceyi,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+819,hard maple/oak/hickory/beech,QULA2,Quercus laevis Walter,turkey oak,Fagaceae,tree,Quercus,laevis,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+820,hard maple/oak/hickory/beech,QULA3,Quercus laurifolia Michx.,laurel oak,Fagaceae,tree,Quercus,laurifolia,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.58,-2.0705,2.441
+822,hard maple/oak/hickory/beech,QULY,Quercus lyrata Walter,overcup oak,Fagaceae,tree,Quercus,lyrata,0.722,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+8441,hard maple/oak/hickory/beech,QUMA13,Quercus margaretta (Ashe) Small,sand post oak,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+823,hard maple/oak/hickory/beech,QUMA2,Quercus macrocarpa Michx.,bur oak,Fagaceae,tree,Quercus,macrocarpa,0.77,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+824,hard maple/oak/hickory/beech,QUMA3,Quercus marilandica Münchh.,blackjack oak,Fagaceae,tree,Quercus,marilandica,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+825,hard maple/oak/hickory/beech,QUMI,Quercus michauxii Nutt.,swamp chestnut oak,Fagaceae,tree,Quercus,michauxii,0.77,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+841,hard maple/oak/hickory/beech,QUMI2,Quercus minima (Sarg.) Small,dwarf live oak,Fagaceae,tree,Quercus,minima,0.722,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.58,-2.0705,2.441
+926,hard maple/oak/hickory/beech,QUMO4,Quercus montana Willd.,chestnut oak,Fagaceae,tree,NA,NA,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+826,hard maple/oak/hickory/beech,QUMU,Quercus muehlenbergii Engelm.,chinquapin oak,Fagaceae,tree,Quercus,muehlenbergii,0.77,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+6791,hard maple/oak/hickory/beech,QUMY,Quercus myrtifolia Willd.,myrtle oak,Fagaceae,tree,Quercus,myrtifolia,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+833,hard maple/oak/hickory/beech,QUNE,Quercus ×neopalmeri Sudw. ex Palmer,hybrid oak,Fagaceae,tree,NA,NA,0.811,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+827,hard maple/oak/hickory/beech,QUNI,Quercus nigra L.,water oak,Fagaceae,tree,Quercus,nigra,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+833,hard maple/oak/hickory/beech,QUPA,Quercus ×palaeolithicola Trel.,hybrid oak,Fagaceae,tree,NA,NA,0.811,NA,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+830,hard maple/oak/hickory/beech,QUPA2,Quercus palustris MÃ¼nchh.,pin oak,Fagaceae,tree,Quercus,palustris,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+813,hard maple/oak/hickory/beech,QUPA5,Quercus pagoda Raf.,cherrybark oak,Fagaceae,tree,Quercus,pagoda,0.811,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+831,hard maple/oak/hickory/beech,QUPH,Quercus phellos L.,willow oak,Fagaceae,tree,Quercus,phellos,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+NA,,QUPU80,Quercus pumila Walter,running oak,Fagaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+833,hard maple/oak/hickory/beech,QURU,Quercus rubra L.,northern red oak,Fagaceae,tree,Quercus,rubra,0.811,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+833,hard maple/oak/hickory/beech,QURUR,Quercus rubra L. var. rubra,northern red oak,Fagaceae,tree,NA,NA,0.811,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+834,hard maple/oak/hickory/beech,QUSH,Quercus shumardii Buckley,Shumard's oak,Fagaceae,tree,Quercus,shumardii,0.811,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+835,hard maple/oak/hickory/beech,QUST,Quercus stellata Wangenh.,post oak,Fagaceae,tree,Quercus,stellata,0.722,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+837,hard maple/oak/hickory/beech,QUVE,Quercus velutina Lam.,black oak,Fagaceae,tree,Quercus,velutina,0.78,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,0.57,-2.0705,2.441
+838,hard maple/oak/hickory/beech,QUVI,Quercus virginiana Mill.,live oak,Fagaceae,tree,Quercus,virginiana,0.722,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+839,hard maple/oak/hickory/beech,QUWI2,Quercus wislizeni A. DC.,interior live oak,Fagaceae,tree,Quercus,wislizeni,0.84,hw4,-2.0127,2.4342,FagaceaeDeciduous,hardwood,Hardwood,NA,-2.0705,2.441
+8425,,RAAC,Randia aculeata L.,white indigoberry,Rubiaceae,shrub,Randia,aculeata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RAPO2,Randia portoricensis (Urb.) Britton & Standl.,Puerto Rico indigoberry,Rubiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8444,woodland,REGU,Reynosia guama Urb.,guama,Rhamnaceae,shrub/tree,Reynosia,guama,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8447,woodland,REUN,Reynosia uncinata Urb.,sloe,Rhamnaceae,shrub/tree,Reynosia,uncinata,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,RHAL,Rhamnus alnifolia L'HÃ©r.,alderleaf buckthorn,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,RHAR4,Rhus aromatica Aiton,fragrant sumac,Anacardiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,RHCA4,Rhododendron calendulaceum (Michx.) Torr.,flame azalea,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,woodland,RHCA7,Rhododendron canescens (Michx.) Sweet,mountain azalea,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,,RHCO,Rhus copallinum L.,winged sumac,Anacardiaceae,shrub/tree,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,RHDA,Rhamnus davurica Pall.,Dahurian buckthorn,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,RHGL,Rhus glabra L.,smooth sumac,Anacardiaceae,shrub/tree,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,RHIL,Rhamnus ilicifolia Kellogg,hollyleaf redberry,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,RHMA4,Rhododendron maximum L.,great laurel,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,woodland,RHODO,Rhododendron L.,rhododendron,Ericaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,,RHPE4,Rhododendron periclymenoides (Michx.) Shinners,pink azalea,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RHSC3,Rhodotypos scandens (Thunb.) Makino,jetbead,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RHTY,Rhus typhina L.,staghorn sumac,Anacardiaceae,shrub/tree,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RHUS,Rhus L.,sumac,Anacardiaceae,shrub/tree,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RIBES,Ribes L.,currant,Grossulariaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RICE,Ribes cereum Douglas,wax currant,Grossulariaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RIGL,Ribes glandulosum Grauer,skunk currant,Grossulariaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RIMI,Ribes missouriense Nutt.,Missouri gooseberry,Grossulariaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RIRO,Ribes roezlii Regel,Sierra gooseberry,Grossulariaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8476,woodland,ROAC2,Rochefortia acanthophora (DC.) Griseb.,greenheart ebony,Boraginaceae,shrub/tree,Rochefortia,acanthophora,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,ROAR3,Rosa arkansana Porter,prairie rose,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ROGY,Rosa gymnocarpa Nutt.,dwarf rose,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8483,,ROIN4,Rondeletia inermis (Spreng.) Krug & Urb.,cordobancillo,Rubiaceae,shrub,Rondeletia,inermis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ROMU,Rosa multiflora Thunb.,multiflora rose,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+901,mixed hardwood,ROPS,Robinia pseudoacacia L.,black locust,Fabaceae,tree,Robinia,pseudoacacia,0.932,hw3,-2.48,2.4835,Fabaceae/Juglandaceae/Other,hardwood,Hardwood,0.66,-2.5095,2.5437
+NA,,ROSE2,Rosa setigera Michx.,climbing rose,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,ROWO,Rosa woodsii Lindl.,Woods' rose,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUAL,Rubus allegheniensis Porter,Allegheny blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUAR9,Rubus armeniacus Focke,Himalayan blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUBUS,Rubus L.,blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUHA,Rubus hawaiensis A. Gray,Hawai'i blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RULA,Rubus laciniatus Willd.,cutleaf blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RULE,Rubus leucodermis Douglas ex Torr. & A. Gray,whitebark raspberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUOC,Rubus occidentalis L.,black raspberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUOK,Rubus oklahomus L.H. Bailey,Oklahoma blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUPA,Rubus parviflorus Nutt.,thimbleberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUPE3,Rubus pensilvanicus Poir.,Pennsylvania blackberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUPH,Rubus phoenicolasius Maxim.,wine raspberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,RUSP,Rubus spectabilis Pursh,salmonberry,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,SAAL,Salix alaxensis (Andersson) Coville,feltleaf willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+931,mixed hardwood,SAAL5,Sassafras albidum (Nutt.) Nees,sassafras,Lauraceae,tree,Sassafras,albidum,0.792,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,aspen/alder/cottonwood/willow,SABE2,Salix bebbiana Sarg.,Bebb willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,SACA4,Salix candida FlueggÃ© ex Willd.,sageleaf willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,,SACY3,Sadleria cyatheoides Kaulf.,amaumau fern,Blechnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SADLE,Sadleria Kaulf.,sadleria,Blechnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,SAET,Sabal etonia Swingle ex Nash,scrub palmetto,Arecaceae,palm,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,SAGL,Salix glauca L.,grayleaf willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,SAHA,Salix hastata L.,halberd willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,SALIX,Salix L.,willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,,SAMBU,Sambucus L.,elderberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,SAMI8,Sabal minor (Jacq.) Pers.,dwarf palmetto,Arecaceae,palm,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,aspen/alder/cottonwood/willow,SAMY,Salix myrtillifolia Andersson,blueberry willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+922,aspen/alder/cottonwood/willow,SANI,Salix nigra Marshall,black willow,Salicaceae,tree,Salix,nigra,0.792,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,SANI4,Sambucus nigra L.,black elderberry,Caprifoliaceae,shrub,NA,NA,NA,NA,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,SANIC4,Sambucus nigra L. ssp. canadensis (L.) R. Bolli,American black elderberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SANIC5,Sambucus nigra L. ssp. cerulea (Raf.) R. Bolli,blue elderberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SAPA11,Sadleria pallida Hook. & Arn.,ama'u,Blechnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+926,aspen/alder/cottonwood/willow,SAPE2,Salix pedicellaris Pursh,bog willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+926,aspen/alder/cottonwood/willow,SAPE5,Salix petiolaris Sm.,meadow willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+926,aspen/alder/cottonwood/willow,SAPU15,Salix pulchra Cham.,tealeaf willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+926,aspen/alder/cottonwood/willow,SAPY,Salix pyrifolia Andersson,balsam willow,Salicaceae,tree,Salix,pyrifolia,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+NA,,SARA2,Sambucus racemosa L.,red elderberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+926,aspen/alder/cottonwood/willow,SARI4,Salix richardsonii Hook.,Richardson's willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+926,aspen/alder/cottonwood/willow,SASC,Salix scouleriana Barratt ex Hook.,Scouler's willow,Salicaceae,tree,NA,NA,0.84,hw1,-2.2094,2.3867,NA,NA,NA,NA,NA,NA
+8546,,SASE6,Savia sessiliflora (Sw.) Willd.,amansa guapo,Euphorbiaceae,shrub,Savia,sessiliflora,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SASO2,Sadleria souleyetiana (Gaudich.) T. Moore,longleaf plume fern,Blechnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,SASSA,Sassafras Nees & Eberm.,sassafras,Lauraceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,SAVE4,Sarcobatus vermiculatus (Hook.) Torr.,greasewood,Chenopodiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8554,,SCFR,Schaefferia frutescens Jacq.,Florida boxwood,Celastraceae,shrub,Schaefferia,frutescens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SEFL3,Senecio flaccidus Less.,threadleaf ragwort,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,mixed hardwood,SEGR4,Senegalia greggii (A. Gray) Britton & Rose,catclaw acacia,Fabaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,SEPO4,Serjania polyphylla (L.) Radlk.,basketwood,Sapindaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,SERE2,Serenoa repens (W. Bartram) Small,saw palmetto,Arecaceae,palm,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8596,mixed hardwood,SESI3,Senna siamea (Lam.) Irwin & Barneby,Siamese cassia,Fabaceae,tree,Senna,siamea,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,SHAR,Shepherdia argentea (Pursh) Nutt.,silver buffaloberry,Elaeagnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SHCA,Shepherdia canadensis (L.) Nutt.,russet buffaloberry,Elaeagnaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SIDER2,Sideroxylon L.,bully,Sapotaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SILA20,Sideroxylon lanuginosum Michx.,gum bully,Sapotaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+381,,SILAL3,Sideroxylon lanuginosum Michx. ssp. lanuginosum,gum bully,Sapotaceae,shrub,Sideroxylon,lanuginosum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8615,,SILY,Sideroxylon lycioides L.,buckthorn bully,Sapotaceae,shrub,Sideroxylon,lycioides,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8613,,SIOB,Sideroxylon obovatum Lam.,breakbill,Sapotaceae,shrub,Sideroxylon,obovatum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+891,,SISA6,Sideroxylon salicifolium (L.) Lam.,white bully,Sapotaceae,shrub,Sideroxylon,salicifolium,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8616,,SITE2,Sideroxylon tenax L.,tough bully,Sapotaceae,shrub,Sideroxylon,tenax,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SMAU,Smilax auriculata Walter,earleaf greenbrier,Smilacaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SMGL,Smilax glauca Walter,cat greenbrier,Smilacaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SMILA2,Smilax L.,greenbrier,Smilacaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SMLA,Smilax laurifolia L.,laurel greenbrier,Smilacaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SMRO,Smilax rotundifolia L.,roundleaf greenbrier,Smilacaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SMSM,Smilax smallii Morong,lanceleaf greenbrier,Smilacaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+935,woodland,SOAM3,Sorbus americana Marshall,American mountain ash,Rosaceae,shrub/tree,Sorbus,americana,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+NA,,SPAL2,Spiraea alba Du Roi,white meadowsweet,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SPALL,Spiraea alba Du Roi var. latifolia (Aiton) Dippel,white meadowsweet,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SPDOD,Spiraea douglasii Hook. var. douglasii,rose spirea,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SPST3,Spiraea stevenii (C.K. Schneid.) Rydb.,beauverd spirea,Rosaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,STAM4,Styrax americanus Lam.,American snowbell,Styracaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,STEM3,Stigmaphyllon emarginatum (Cav.) A. Juss.,monarch Amazonvine,Malpighiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,STFL5,Stigmaphyllon floribundum (DC.) C.E. Anderson,woolly Amazonvine,Malpighiaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,STTA,Styphelia tameiameiae (Cham. & Schltdl.) F. Muell.,pukiawe,Epacridaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+940,mixed hardwood,SWMA2,Swietenia mahagoni (L.) Jacq.,West Indian mahogany,Meliaceae,tree,Swietenia,mahagoni,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,SYAL,Symphoricarpos albus (L.) S.F. Blake,common snowberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SYOC,Symphoricarpos occidentalis Hook.,western snowberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,SYOR,Symphoricarpos orbiculatus Moench,coralberry,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,SYTI,Symplocos tinctoria (L.) L'HÃ©r.,common sweetleaf,Symplocaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+231,cedar/larch,TABR2,Taxus brevifolia Nutt.,Pacific yew,Taxaceae,tree,Taxus,brevifolia,0.458,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+221,cedar/larch,TADI2,Taxodium distichum (L.) Rich.,bald cypress,Cupressaceae,tree,Taxodium,distichum,0.952,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+8713,woodland,TAHE,Tabebuia heterophylla (DC.) Britton,white cedar,Bignoniaceae,shrub/tree,Tabebuia,heterophylla,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,cedar/larch,TAXUS,Taxus L.,yew,Taxaceae,tree,NA,NA,0.84,sw1,-2.0336,2.2592,NA,NA,NA,NA,NA,NA
+NA,,TECA2,Tetradymia canescens DC.,spineless horsebrush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,TEDA,Tetradium daniellii (Benn.) T.G. Hartley,bee-bee tree,Rutaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,TEGL,Tetradymia glabrata Torr. & A. Gray,littleleaf horsebrush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,TETRA3,Tetradymia DC.,horsebrush,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+241,cedar/larch,THOC2,Thuja occidentalis L.,arborvitae,Cupressaceae,tree,Thuja,occidentalis,0.631,sw1,-2.0336,2.2592,CupressaceaeBelow0.30spg,conifer,Conifer,0.29,-1.9615,2.1063
+242,cedar/larch,THPL,Thuja plicata Donn ex D. Don,western redcedar,Cupressaceae,tree,Thuja,plicata,0.705,sw1,-2.0336,2.2592,Cupressaceae0.30-0.39spg,conifer,Conifer,0.34,-2.7765,2.4195
+8794,,THSTP,Thouinia striata Radlk. var. portoricensis (Radlk.) Votava & Alain,Puerto Rico ceboruquillo,Sapindaceae,shrub,Thouinia,striata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+951,mixed hardwood,TIAM,Tilia americana L.,American basswood,Tiliaceae,tree,Tilia,americana,0.672,hw3,-2.48,2.4835,Hippocastanaceae/Tiliaceae,hardwood,Hardwood,0.32,-2.4108,2.4177
+NA,,TODI,Toxicodendron diversilobum (Torr. & A. Gray) Greene,Pacific poison oak,Anacardiaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,TORA2,Toxicodendron radicans (L.) Kuntze,eastern poison ivy,Anacardiaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,TOVE,Toxicodendron vernix (L.) Kuntze,poison sumac,Anacardiaceae,shrub/tree,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,TOVO,Tournefortia volubilis L.,twining soldierbush,Boraginaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,TRDA3,Tripsacum dactyloides (L.) L.,eastern gamagrass,Poaceae,graminoid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+994,,TRSE6,Triadica sebifera (L.) Small,Chinese tallow,Euphorbiaceae,shrub,Triadica,sebifera,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+261,douglas,TSCA,Tsuga canadensis (L.) Carrière,eastern hemlock,Pinaceae,tree,Tsuga,canadensis,0.628,sw3,-2.2304,2.4435,TsugaBelow0.40spg,conifer,Conifer,0.38,-2.348,2.3876
+263,douglas,TSHE,Tsuga heterophylla (Raf.) Sarg.,western hemlock,Pinaceae,tree,Tsuga,heterophylla,0.671,sw3,-2.2304,2.4435,TsugaAbove0.40spg,conifer,Conifer,0.42,-2.9208,2.5697
+NA,,TUDI,Turnera diffusa Willd. ex Schult.,damiana,Turneraceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+971,mixed hardwood,ULAL,Ulmus alata Michx.,winged elm,Ulmaceae,tree,Ulmus,alata,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+972,mixed hardwood,ULAM,Ulmus americana L.,American elm,Ulmaceae,tree,Ulmus,americana,0.792,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+973,mixed hardwood,ULCR,Ulmus crassifolia Nutt.,cedar elm,Ulmaceae,tree,Ulmus,crassifolia,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+972,mixed hardwood,ULMUS,Ulmus L.,elm,Ulmaceae,tree,NA,NA,0.792,hw3,-2.48,2.4835,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,hardwood,Hardwood,0.47,-2.2118,2.4133
+974,mixed hardwood,ULPU,Ulmus pumila L.,Siberian elm,Ulmaceae,tree,Ulmus,pumila,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+975,mixed hardwood,ULRU,Ulmus rubra Muhl.,slippery elm,Ulmaceae,tree,Ulmus,rubra,0.792,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,woodland,VAAR,Vaccinium arboreum Marshall,farkleberry,Ericaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,,VACA8,Vaccinium calycinum Sm.,ohelo kau la'au,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,VACCI,Vaccinium L.,blueberry,Ericaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,woodland,VACO,Vaccinium corymbosum L.,highbush blueberry,Ericaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,Cornaceae/Ericaceae/Lauraceae/Platanaceae/Rosaceae/Ulmaceae,NA,NA,NA,-2.2118,2.4133
+NA,mixed hardwood,VACO9,Vachellia constricta (Benth.) Seigler & Ebinger,whitethorn acacia,Fabaceae,tree,NA,NA,0.84,hw3,-2.48,2.4835,NA,NA,NA,NA,NA,NA
+NA,,VAEL,Vaccinium elliottii Chapm.,Elliott's blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAFU,Vaccinium fuscatum Aiton,black highbush blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAME,Vaccinium membranaceum Douglas ex Torr.,thinleaf huckleberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAMY,Vaccinium myrtilloides Michx.,velvetleaf huckleberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAMY3,Vaccinium myrsinites Lam.,shiny blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAOV,Vaccinium ovalifolium Sm.,oval-leaf blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAPA,Vaccinium parvifolium Sm.,red huckleberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAPA4,Vaccinium pallidum Aiton,Blue Ridge blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VARE,Vaccinium reticulatum Sm.,ohelo 'ai,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAST,Vaccinium stamineum L.,deerberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAUL,Vaccinium uliginosum L.,bog blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VAVI2,Vaccinium virgatum Aiton,smallflower blueberry,Ericaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VEAR2,Verbesina aristata (Elliott) A. Heller,coastal plain crownbeard,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,VIAC,Viburnum acerifolium L.,mapleleaf viburnum,Caprifoliaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,VIAE,Vitis aestivalis Michx.,summer grape,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,VIBUR,Viburnum L.,viburnum,Caprifoliaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,VICI2,Vitis cinerea (Engelm.) Engelm. ex Millard,graybark grape,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VILA,Viburnum lantana L.,wayfaringtree,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VILA11,Viburnum lantanoides Michx.,hobblebush,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VILA8,Vitis labrusca L.,fox grape,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,VINU,Viburnum nudum L.,possumhaw,Caprifoliaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,VINUC,Viburnum nudum L. var. cassinoides (L.) Torr. & A. Gray,withe-rod,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,VIPR,Viburnum prunifolium L.,blackhaw,Caprifoliaceae,shrub,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,VIRI,Vitis riparia Michx.,riverbank grape,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VIRO2,Viola rotundifolia Michx.,roundleaf yellow violet,Violaceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VIRO3,Vitis rotundifolia Michx.,muscadine,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VIRU,Viburnum rufidulum Raf.,rusty blackhaw,Caprifoliaceae,shrub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,VITIS,Vitis L.,grape,Vitaceae,vine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,,WEFR,Wedelia fruticosa Jacq.,coastal plain creepingoxeye,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8897,woodland,WISA,Wikstroemia sandwicensis Meisn.,variableleaf false ohelo,Thymelaeaceae,shrub/tree,Wikstroemia,sandwicensis,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,woodland,WISTE,Wisteria Nutt.,wisteria,Fabaceae,tree,NA,NA,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,YUEL,Yucca elata (Engelm.) Engelm.,soaptree yucca,Agavaceae,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,ZAAM,Zanthoxylum americanum Mill.,common pricklyash,Rutaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8938,woodland,ZAPO2,Zapoteca portoricensis (Jacq.) H.M. Hern.,white stickpea,Fabaceae,tree,Zapoteca,portoricensis,0.84,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+NA,,ZIAC,Zinnia acerosa (DC.) A. Gray,desert zinnia,Asteraceae,forb/herb,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,woodland,ZIOB,Ziziphus obtusifolia (Hook. ex Torr. & A. Gray) A. Gray,lotebush,Rhamnaceae,shrub/tree,NA,NA,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
+8940,woodland,ZIRE,Ziziphus reticulata (Vahl) DC.,cacao rojo,Rhamnaceae,shrub/tree,Ziziphus,reticulata,NA,NA,-0.7152,1.7029,NA,NA,NA,NA,NA,NA
