@@ -41,19 +41,20 @@ Taxon classification information is found in the `./data/MasterTaxonList.csv` fi
 
 ## Data workflow
 
-Source data files used in the creation of this data product are included in the `./R/` directory. Of particular interest
-would be the `./R/001_allometry_script_20240320.R` file which demonstrates how the data are imported using the `neonstore` package
-and then merged with allometric and taxonomy source data we compiled to determine biomass. With proper citation, this file may be 
-adapted and used for your own purposes.
+Source data files used in the creation of this data product are included in the `./R/` directory. Of particular interest would be the `./R/001_allometry_script_20240320.R` file which demonstrates how the data are imported using the `neonstore` package and then merged with allometric and taxonomy source data we compiled to determine biomass. With proper citation, this file may be adapted and used for your own purposes.
 
 ![](https://private-user-images.githubusercontent.com/8354517/323278019-152d7212-b282-48de-815e-6d18a8aef6fe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMzNjcwODMsIm5iZiI6MTcxMzM2Njc4MywicGF0aCI6Ii84MzU0NTE3LzMyMzI3ODAxOS0xNTJkNzIxMi1iMjgyLTQ4ZGUtODE1ZS02ZDE4YThhZWY2ZmUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MTdUMTUxMzAzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzhiODY0OTBkNGJlMmRhMDUwYmM2ODE0OWZjNTU1ZGFmYzZhNWQwNTdjNmFiZmRlYjQ0OGU0MDc3M2M0YTEyNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.BoH4UZedTv67uQ94wPiAG9eZ4-vC2Y7GhPAf2zUZvkk)
 
 ## References:
 
-Atkins, J. W., Fahey, R. T., Hardiman, B. S., & Gough, C. M. (2018). Forest canopy structural complexity and light absorption relationships at the subcontinental scale. Journal of Geophysical Research: Biogeosciences, 123(4), 1387-1405.
+Atkins, Jeff; Meier, Courtney; Alveshere, Brandon; Breland, Sabrie; Langley, Michael (2024). NEONForestAGBv2. figshare. Dataset. <https://doi.org/10.6084/m9.figshare.25625352.v1>
 
-Gough, C. M., Atkins, J. W., Fahey, R. T., & Hardiman, B. S. (2019). High rates of primary production in structurally complex forests.
+Chojnacky, D. C., Heath, L. S., & Jenkins, J. C. (2014). Updated generalized biomass equations for North American tree species. *Forestry*, *87*(1), 129-151.
 
 Jenkins, J. C., Chojnacky, D. C., Heath, L. S., & Birdsey, R. A. (2003). National-scale biomass estimators for United States tree species. Forest science, 49(1), 12-35.
 
-Chojnacky ..... (2014)
+Ter-Mikaelian, M. T., and M. D. Korzukhin. 1997. Biomass equations for sixty-five North American tree species. Forest Ecology and Management 97:1--24.
+
+USDA Plants Database. (2024). . <https://plants.usda.gov/home.>
+
+Woudenberg, S. W., B. L. Conkling, B. M. O\'Connell, E. B. LaPoint, J. A. Turner, and K. L. Waddell. 2010. The Forest Inventory and Analysis Database: Database description and users manual version 4.0 for Phase 2. Gen. Tech. Rep. RMRS-GTR-245. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 336 p. 245.
