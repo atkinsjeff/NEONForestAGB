@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # NEONForestAGB
 
 The NEONForesAGB data product includes aboveground biomass (AGB)
