@@ -352,14 +352,41 @@ display: none;
 </div>
 
 
-<div id="neonbiomass" class="section level1">
-<h1>NEONBiomass</h1>
-<p>This code uses the Jenkins et al. 2003 allometric equations fit to
-NEON taxon ID information for NEON sites using the NEON data formatting
-and structure.</p>
-<p>It is a sketch that works up biomass estimates in kg (I think) for
-the Harvard Forest (HARV) terrestrial observation plots for
-2019-2021.</p>
+<div id="neonforestagb" class="section level1">
+<h1>NEONForestAGB</h1>
+<p>The NEONForesAGB data product includes aboveground biomass (AGB)
+estimates from individual tree diameters scaled to whole tree biomass
+using generalized allometric equations for 35 National Ecological
+Observatory Network (NEON) sites within the United States and Puerto
+Rico. The data set includes 93,971 unique individuals of 478 different
+species in 1,216 terrestrial observation plots for 245,245 biomass
+estimates between the years 2014 to 2023.</p>
+<div id="getting-the-data" class="section level2">
+<h2>Getting the data</h2>
+<p>To bring the data directly into the R workspace, first download or
+copy the file <code>./R/NEONForestAGB.R</code> from this repo.</p>
+<p>Direct URL: <a href="https://github.com/atkinsjeff/NEONForestAGB/blob/main/R/NEONForestAGB.R" class="uri">https://github.com/atkinsjeff/NEONForestAGB/blob/main/R/NEONForestAGB.R</a></p>
+<p>Then the following code will directly import the NEONForestAGB data
+into the workspace:</p>
+<pre><code># Change this to wherever you download the file
+source(&quot;./R/NEONForestAGB.R&quot;)
+
+# import the data
+df &lt;- getAGB()</code></pre>
+<p>Metadata can be viewed and downloaded via <code>getAGBMeta()</code>
+and the source taxonomy and allometry data can be viewed and downloaded
+bia <code>getAGBTaxons()</code>.</p>
+<p>Alternativly, one can copy the function contents of the
+<code>NEONForestAGB.R</code> file or access the data directly via the <a href="https://figshare.com/articles/dataset/NEONForestAGBv2/25625352">figshare
+repository</a>.</p>
+</div>
+</div>
+<div id="methodology" class="section level1">
+<h1>Methodology</h1>
+<p>This code uses the Jenkins et al. 2003 and Chojnacky et al. 2014
+allometric equations fit to NEON taxon ID information for 40 NEON
+terrestrial sites to generate estimate of aboveground biomass (AGB) for
+individuals.</p>
 <div id="additional-notes" class="section level2">
 <h2>Additional Notes</h2>
 <p>The Jenkins allometric equations classify trees into several groups
@@ -372,22 +399,13 @@ coefficients and <span class="math inline">\(dbh\)</span> is the
 diameter-at-breast height in cm.</p>
 <p>Individual trees in the NEON data set are assigned a
 <code>taxonID</code> which was used to match with the assigned groups
-from Jenkins et al. 2003 (further species classification information is
-provided in the manuscript). However, where there was no initially
-obvious classification group that could be assigned, the USDA PLANTS
-database and other sources were consulted and a best guess was made.
-Please feel free to offer suggestions for improvements.</p>
+from Jenkins et al. 2003 and Chojnacky et al. (2014).<br />
+However, where there was no initially obvious classification group that
+could be assigned, the USDA PLANTS database and other sources were
+consulted and a best guess was made. Please feel free to offer
+suggestions for improvements.</p>
 <p>Taxon classification information is found in the
-<code>./data/neon_taxon_jenkins.csv</code> file.</p>
-<p>Note, this only includes species/taxons present in NEON sites used in
-the Atkins et al. 2018 and Gough et al. 2019 papers from the Midwest,
-Northeast, Mid-Atlantic and Southeast regions of the US:</p>
-<p>BART (Bartlett Experimental Forest), GRSM (Great Smoky Mountains),
-HARV (Harvard Forest), MLBS (Mountain Lake Biological Station), OSBS
-(Ordway-Swisher Biological Station), SCBI (Smithsonian Conservation
-Biological Institute), SERC (Smithsonian Environmental Research Center),
-TALL (Talladega National Forest), TREE (Treehaven), UNDE (University of
-Notre Dame Environmental Research Center).</p>
+<code>./data/MasterTaxonList.csv</code> file.</p>
 </div>
 <div id="references" class="section level2">
 <h2>References:</h2>
@@ -401,6 +419,7 @@ forests.</p>
 <p>Jenkins, J. C., Chojnacky, D. C., Heath, L. S., &amp; Birdsey, R. A.
 (2003). National-scale biomass estimators for United States tree
 species. Forest science, 49(1), 12-35.</p>
+<p>Chojnacky ….. (2014)</p>
 </div>
 </div>
 

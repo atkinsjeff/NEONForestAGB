@@ -6,7 +6,15 @@ editor_options:
 
 # NEONForestAGB
 
-# Using the dataset
+The NEONForesAGB data product includes aboveground biomass (AGB)
+estimates from individual tree diameters scaled to whole tree biomass
+using generalized allometric equations for 35 National Ecological
+Observatory Network (NEON) sites within the United States and Puerto
+Rico. The data set includes 93,971 unique individuals of 478 different
+species in 1,216 terrestrial observation plots for 245,245 biomass
+estimates between the years 2014 to 2023.
+
+## Getting the data
 
 To bring the data directly into the R workspace, first download or copy
 the file `./R/NEONForestAGB.R` from this repo.
@@ -19,7 +27,6 @@ the workspace:
 
 ```         
 # Change this to wherever you download the file
-
 source("./R/NEONForestAGB.R")
 
 # import the data
@@ -33,7 +40,6 @@ taxonomy and allometry data can be viewed and downloaded bia
 Alternativly, one can copy the function contents of the
 `NEONForestAGB.R` file or access the data directly via the [figshare
 repository](https://figshare.com/articles/dataset/NEONForestAGBv2/25625352).
-
 
 # Methodology
 
