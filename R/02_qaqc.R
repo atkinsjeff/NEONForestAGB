@@ -35,205 +35,127 @@ try_theme <- function() {
 }
 
 # lists all the biomass files
-list.files(path = "./data/biomass/", pattern = "_biomass", full.names= TRUE) %>% 
+list.files(path = "./data/biomass/", pattern = "_biomass", full.names= TRUE, recursive = FALSE) %>% 
   map_df(~fread(.))  -> neon.bio
 
 # convert to data frame
 neon.bio <- data.frame(neon.bio)
 
-# remove those data with no AGB estimates for either 
-df <- neon.bio[!is.na(neon.bio$AGBJenkins) | !is.na(neon.bio$AGBChojnacky), ]
-# what's up with CPER and JORN
+# fix checks if AGB is there
+neon.bio$flag <- ifelse(!is.na(neon.bio$AGBJenkins| neon.bio$AGBAnnighofer), "Good", "Check")
+
+###################### NOW FOR THE PROBLEMS
+# look at check first
 neon.bio %>%
-  filter(siteID == "CPER") %>%
-  data.frame() -> neon.cper
+  filter(flag == "Check") %>%
+  data.frame() -> df.check
 
 neon.bio %>%
-  filter(siteID == "JORN") %>%
-  data.frame() -> neon.jorn
-
-# remove CPER
-neon.bio %>%
-  filter(siteID != "CPER") %>%
-  # filter(siteID != "JORN") %>%
-  data.frame() -> neon.bio
-
-# look at no of plots and individuals
-length(unique(neon.bio$plotID))
-length(unique(neon.bio$individualID))
-
-# tabulate no of individuals with agbjenkins
-df %>%
-  group_by(year, siteID)
-
-# JENKINS bar
-df %>% add_count(., siteID) %>% group_by(siteID) %>% mutate(n = ifelse(row_number(n)!=1, NA, n)) %>%
-  ggplot(., mapping = aes(x = year, y = (AGBJenkins * 0.001)))+
-  geom_bar(stat = "identity")+
-  xlab("")+
-  ylab("Total Biomass in Mg [Jenkins et al. (2003)]")+
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-  facet_wrap(vars(siteID))+
-  geom_text(aes(label = n, x = 2015, y = 750), size = 3, vjust = -0.5, parse = TRUE) -> jenkins.bar
-
-x11()
-jenkins.bar
-
-df %>% add_count(., siteID) %>% group_by(siteID) %>% mutate(n = ifelse(row_number(n)!=1, NA, n)) %>%
-  ggplot(., mapping = aes(x = year, y = (AGBChojnacky * 0.001)))+
-  geom_bar(stat = "identity")+
-  xlab("")+
-  ylab("Total Biomass in Mg [Chojnacky et al. (2014)]")+
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-  facet_wrap(vars(siteID))+
-  geom_text(aes(label = n, x = 2015, y = 650), size = 3, vjust = -0.5, parse = TRUE) -> choj.bar
-
-x11()
-choj.bar
+  filter(flag == "Good") %>%
+  data.frame() -> df.good
   
-#### group by jenkins
-df %>%
-  group_by(jenkins_model) %>%
-  summarise(wBio = sum(!is.na(AGBJenkins)),
-            naBio = sum(is.na(AGBJenkins)),
-            wDBH = sum(!is.na(stemDiameter)),
-            naDBH = sum(is.na(stemDiameter)))
+# 1) look at sites where the measurementHeight value is 10 cm or less,
+# and could be an issue with the wrong entry should be in basaldiameter...
+df.check %>%
+  filter(measurementHeight <= 10) %>%
+  data.frame() -> df.ten.cm.msmt.ht
+
+a <- df.ten.cm.msmt.ht
+
+table(a$Genus)
+a$AGBAnnighofer <- a$SapBeta1 * ((a$stemDiameter^2 * a$height)^a$SapBeta2)
+
+df.ten.cm.msmt.ht <- a
+
+
+# okay that is 2178 with msmts and no corresponding allometries
+
+
+
+
+#########
+# 2) weird msmsts between 10 and 100
+df.check %>%
+  filter(measurementHeight > 10 & measurementHeight < 50) %>%
+  data.frame() -> df.ten.fifty
+
+b <- df.ten.fifty
+
+# now do the allometries
+b$AGBJenkins <- exp(b$betaZero + (b$betaOne * log(b$est.dbh * b$Adj.Factor)))
+b$AGBChojnacky <- exp(b$beta0 + (b$beta1 * log(b$est.dbh * b$Adj.Factor)))
+
+# missing allometries and an adjustment factor for one small tree
+
+
+
+#########
+# 3) chceking the big trees
+df.check %>%
+  filter(measurementHeight > 50) %>%
+  data.frame() -> df.fifty
+
+c <- df.fifty
+c$AGBJenkins <- exp(c$betaZero + (c$betaOne * log(c$stemDiameter)))
+c$AGBChojnacky <- exp(c$beta0 + (c$beta1 * log(c$stemDiameter)))
+
+# na for jenkins went from 7145 to 2562 5784 replacements!
+
+# 4) look at the saplings
+df.check %>%
+  filter(!is.na(basalStemDiameterMsrmntHeight)) %>%
+  data.frame() -> df.basal.stem
+
+d <- df.basal.stem
+
+d$AGBAnnighofer <- d$SapBeta1 * ((d$basalStemDiameter^2 * d$height)^d$SapBeta2)
+
+# looks like there are 25879 saplings with basal stem diameters, no heights or no allometry and no estimates of biomass
+# 
+e <- df.check
+e$AGBJenkins <- exp(e$betaZero + (e$betaOne * log(e$stemDiameter)))
+e$AGBChojnacky <- exp(e$beta0 + (e$beta1 * log(e$stemDiameter)))
+
+
+
+#### NOW WE BRING TOGETHER
+df <- rbind(df.good, e)
+
+# fix checks if AGB is there
+df$flag <- ifelse(!is.na(df$AGBJenkins| df$AGBAnnighofer), "Validated", "Check")
+
+
+#### RECHECK STEM DIAMETER MSMTS
+# df %>%
+#   filter(flag == "Check") %>%
+#   filter(!is.na(stemDiameter)) %>%
+#   data.frame() -> df.stem2
+# 
+
+# look at the stats
+table(df$growthForm)
+
+# set final quality flags
 
 df %>%
-  group_by(chojnacky) %>%
-  summarise(wBio = sum(!is.na(AGBJenkins)),
-            naBio = sum(is.na(AGBJenkins)),
-            wDBH = sum(!is.na(stemDiameter)),
-            naDBH = sum(is.na(stemDiameter)))
-
-#### QA/QC
-#### 
-#### # find missing taxons
-neon.bio %>%
-  dplyr::filter(stemDiameter > 0 & is.na(AGBJenkins)) %>%
-  dplyr::filter(str_detect(growthForm, "tree")) %>%
-  select(taxonID, FIA.Code, Common.Name) %>% 
-  distinct() %>%
-  data.frame() -> zero.missing.allo
-
-write.csv(zero.missing.allo, "./summary/MissingJenkins.csv", row.names = FALSE)
+  mutate(qualityFlag = case_when(
+    flag == "Check" & is.na(stemDiameter) & is.na(basalStemDiameter) ~ "missing values",
+    flag == "Check" & is.na(jenkins_model) ~ "missing allometry",
+    flag == "Check" & jenkins_model == "" ~ "missing allometry",
+    flag == "Check" & !is.na(basalStemDiameter) & !is.na(height) ~ "missing allometry",
+    flag == "Check" & !is.na(basalStemDiameter) & is.na(height) ~ "missing allometry",
+    flag == "Validated" ~ "validated"
+  )) %>%
+  data.frame() -> df.qa.qc
 
 
-neon.bio %>%
-  dplyr::filter(stemDiameter > 0 & is.na(AGBChojnacky)) %>%
-  dplyr::filter(str_detect(growthForm, "tree")) %>%
-  select(taxonID, FIA.Code, Common.Name) %>% 
-  distinct() %>%
-  data.frame() -> zero.missing.allo.choj
-
-write.csv(zero.missing.allo.choj, "./summary/MissingChojnacky.csv", row.names = FALSE)
-
-# now to merge them together
-zero.missing.allo.choj %>%
-  mutate(match = ifelse(taxonID %in% zero.missing.allo$taxonID, 1, 0)) %>%
-  arrange(match) %>%
-  mutate(issue = ifelse(match == 1, "No matching allometry", "No matching allometry from Chojnacky et al. (2014)")) %>%
-  data.frame() -> missing
-
-write.csv(missing, "./summary/missing_taxons.csv", row.names = FALSE)
-
-### look at number of species
-neon.bio %>%
-  dplyr::filter(str_detect(plantStatus, "Live")) %>%
-  group_by(taxonID, growthForm) %>%
-  tally() %>%
-  data.frame() -> species.tally
-
-bad.table <-  distinct(neon.bio[ , c("taxonID", "FIA.Code", "Common.Name", "growthForm")] )
-# make nicer
-species.tally <- merge(species.tally, bad.table )
-
-# how many with no biomass
-neon.bio %>%
-  dplyr::filter(str_detect(plantStatus, "Live")) %>%
-  group_by(taxonID, growthForm) %>%
-  tally(is.na(AGBJenkins)) %>%
-  data.frame() -> jenkins.tally
-names(jenkins.tally)[names(jenkins.tally) == "n"] <- "NoJenkBiomass"
-
-# how many plots
+# if you want to look at what is going on
+df.qa.qc %>%
+  filter(is.na(qualityFlag)) %>%
+  data.frame() -> wtf
 
 
-# how many with no biomass
-neon.bio %>%
-  dplyr::filter(str_detect(plantStatus, "Live")) %>%
-  group_by(taxonID, growthForm) %>%
-  tally(is.na(AGBChojnacky)) %>%
-  data.frame() -> choj.tally
-
-names(choj.tally)[names(choj.tally) == "n"] <- "NoChojBiomass"
-
-species.tally <- merge(species.tally, jenkins.tally, all.x = TRUE)
-species.tally <- merge(species.tally, choj.tally, all.x = TRUE)
-
-write.csv(species.tally, "./summary/BiomassSpeciesQAQC20240305.csv")
-
-#####
-neon.bio %>%
-  filter(stemDiameter > 0) %>%
-  data.frame() -> non.zero
-
-neon.bio %>%
-  filter(is.na(stemDiameter)) %>%
-  data.frame() -> zero
-  
-table(non.zero$growthForm)
-table(zero$growthForm)
-
-# look at trees
-zero %>%
-  dplyr::filter(str_detect(growthForm, "tree")) %>%
-  data.frame() -> zero.tree
-
-table(zero.tree$plantStatus)
-
-# now look at live zero trees
-zero.tree %>%
-  filter(plantStatus == "Live") %>%
-  data.frame() -> zero.live.tree
-
-# look at saplings
-# look at trees
-zero %>%
-  dplyr::filter(str_detect(growthForm, "sapling")) %>%
-  data.frame() -> zero.sap
-
-#### high values
-neon.bio %>%
-  filter(AGBJenkins > 20000)
+# writes the file previous to building AGB product
+#write.csv(df.qa.qc, "NEONForestAGB_20240405.csv")
 
 
-summary(lm(AGBJenkins ~ AGBChojnacky, data = neon.bio))
-sqrt(mean((neon.bio$AGBJenkins - neon.bio$AGBChojnacky)^2, na.rm = TRUE ))
-library(Metrics)
-rmse(neon.bio$AGBJenkins, neon.bio$AGBChojnacky)
-
-#### BIOMASS COMP
-x11()
-ggplot(neon.bio, aes(x = AGBJenkins, y = AGBChojnacky))+
-  geom_hex(bins = 25) +
-  scale_fill_continuous(type = "viridis") +  
-  try_theme()+
-  xlab("AGB Jenkins [kg per Individual]")+
-  ylab("AGB Chojnacky [kg per Individual")+
-  xlim(c(0, 1000))+
-  ylim(c(0, 1000))
-  
-x11(height = 4, width = 4)
-ggplot(neon.bio, aes(x = AGBJenkins, y = AGBChojnacky))+
-  geom_point()+
-  try_theme()+
-  xlab("AGB Jenkins [kg per Individual]")+
-  ylab("AGB Chojnacky [kg per Individual]")+
-  geom_abline(slope = 1, color = "red", width = 1.5)+
-  xlim(c(0, 2000))+
-  ylim(c(0, 2000))
-
-summary(lm(AGBJenkins ~ AGBChojnacky, data = neon.bio))
-
-write.csv(df, "NEONBiomass20240305.csv")

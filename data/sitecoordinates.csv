@@ -4,7 +4,6 @@ X,Y,siteID,Name
 -78.07164,39.06026,BLAN,D02 - Blandy Experimental Farm
 -147.50258,65.15401,BONA,D19 - Caribou-Poker Creeks Research Watershed
 -97.57,33.40123,CLBJ,D11 - LBJ National Grassland
--99.106556,47.161647,DCFS,D09 - Dakota Coteau Field School
 -145.75136,63.88112,DEJU,D19 - Delta Junction
 -87.80389,32.54172,DELA,D08 - Dead Lake
 -81.4362,28.12504,DSNY,D03 - Disney Wilderness Preserve
@@ -14,12 +13,9 @@ X,Y,siteID,Name
 -149.21334,63.87569,HEAL,"D19 - Healy, AK"
 -84.46861,31.19484,JERC,D03 - Jones Ecological Research Center
 -96.56309,39.10077,KONZ,D06 - Konza Prairie Biological Station
--67.0769,18.02125,LAJA,D04 - Lajas Experimental Station
 -88.16122,31.85388,LENO,D08 - Lenoir Landing
 -80.52484,37.37828,MLBS,D07 - Mountain Lake Biological Station
--109.38827,38.24833,MOAB,D13 - Moab
 -105.58237,40.05425,NIWO,D13 - Niwot Ridge Mountain Research Station
--100.91535,46.76972,NOGP,D09 - Northern Great Plains Research Laboratory
 -112.45244,40.17759,ONAQ,D15 - Onaqui
 -84.2826,35.96412,ORNL,D07 - Oak Ridge
 -81.99343,29.68927,OSBS,D03 - Ordway-Swisher Biological Station
@@ -36,6 +32,5 @@ X,Y,siteID,Name
 -89.58571,45.493691,TREE,D05 - Treehaven
 -95.19215,39.04043,UKFS,D06 - The University of Kansas Field Station
 -89.53725,46.23388,UNDE,D05 - UNDERC
--99.241356,47.128228,WOOD,D09 - Woodworth
 -121.951912,45.820488,WREF,D16 - Wind River Experimental Forest
 -110.53914,44.95348,YELL,D12 - Yellowstone Northern Range (Frog Rock)
