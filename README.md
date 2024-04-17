@@ -35,7 +35,7 @@ Alternativly, one can copy the function contents of the
 `NEONForestAGB.R` file or access the data directly via the [figshare
 repository](https://figshare.com/articles/dataset/NEONForestAGBv2/25625352).
 
-# Methodology
+## Methodology
 
 This code uses the Jenkins et al. 2003 and Chojnacky et al. 2014
 allometric equations fit to NEON taxon ID information for 40 NEON
@@ -63,6 +63,10 @@ suggestions for improvements.
 
 Taxon classification information is found in the
 `./data/MasterTaxonList.csv` file.
+
+## Data workflow
+
+![](https://private-user-images.githubusercontent.com/8354517/323278019-152d7212-b282-48de-815e-6d18a8aef6fe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMzNjcwODMsIm5iZiI6MTcxMzM2Njc4MywicGF0aCI6Ii84MzU0NTE3LzMyMzI3ODAxOS0xNTJkNzIxMi1iMjgyLTQ4ZGUtODE1ZS02ZDE4YThhZWY2ZmUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MTdUMTUxMzAzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzhiODY0OTBkNGJlMmRhMDUwYmM2ODE0OWZjNTU1ZGFmYzZhNWQwNTdjNmFiZmRlYjQ0OGU0MDc3M2M0YTEyNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.BoH4UZedTv67uQ94wPiAG9eZ4-vC2Y7GhPAf2zUZvkk)
 
 ## References:
 
