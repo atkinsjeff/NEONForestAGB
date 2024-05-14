@@ -58,6 +58,6 @@ x %>%
 
 
 # write em to file
-## write.csv(df.agb, "NEONForestAGBv2.csv", row.names = FALSE)
+write.csv(df.agb, "NEONForestAGBv2.csv", row.names = FALSE)
 
 
