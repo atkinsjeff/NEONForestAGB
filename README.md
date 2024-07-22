@@ -1,8 +1,8 @@
 # NEONForestAGB
 
-[![](https://zenodo.org/badge/639550392.svg)](https://zenodo.org/doi/10.5281/zenodo.11193519)
+[![DOI](https://zenodo.org/badge/639550392.svg)](https://zenodo.org/doi/10.5281/zenodo.11193519)
 
-The NEONForesAGB data product includes aboveground biomass (AGB) estimates from individual tree diameters scaled to whole tree biomass using generalized allometric equations for 35 National Ecological Observatory Network (NEON) sites within the United States and Puerto Rico. The data set includes 93,971 unique individuals of 478 different species in 1,216 terrestrial observation plots for 245,245 biomass estimates between the years 2014 to 2023 (current as of July 1, 2024).
+The NEONForestAGB data product includes aboveground biomass (AGB) estimates from individual tree diameters scaled to whole tree biomass using generalized allometric equations for 35 National Ecological Observatory Network (NEON) sites within the United States and Puerto Rico. The data set includes 93,971 unique individuals of 478 different species in 1,216 terrestrial observation plots for 245,245 biomass estimates between the years 2014 to 2023 (current as of July 1, 2024).
 
 ![Figure 1. Map showing all 35 NEON terrestrial sites included in this data product.](https://raw.githubusercontent.com/atkinsjeff/NEONForestAGB/main/summary/site_map.png)
 
