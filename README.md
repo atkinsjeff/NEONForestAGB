@@ -24,7 +24,11 @@ df <- getAGB()
 
 Metadata can be viewed and downloaded via `getAGBMeta()` and the source taxonomy and allometry data can be viewed and downloaded bia `getAGBTaxons()`.
 
-Alternativly, one can copy the function contents of the `NEONForestAGB.R` file or access the data directly via the [figshare repository](https://figshare.com/articles/dataset/NEONForestAGBv2/25625352).
+Alternatively, one can copy the function contents of the `NEONForestAGB.R` file or access the data directly via the [figshare repository](https://figshare.com/articles/dataset/NEONForestAGBv2/25625352).
+
+&nbsp;  
+&nbsp;   
+† If you haven't read Jenny Bryan's post on project oriented workflows, please do so! <https://www.tidyverse.org/blog/2017/12/workflow-vs-script/>
 
 ## Methodology
 
@@ -49,11 +53,11 @@ Source data files used in the creation of this data product are included in the 
 
 ## Authors
 
-Jeff W. Atkins (USDA Forest Service, Southern Research Station); Lu Zhai (Oklahoma State University); Courtney Meier (Battelle-NEON); Michael Langley (USDA Forest Service, Southern Research Station); Sabrie Breland (USDA Foreset Service, USFS-Savannah River)
+Jeff W. Atkins (USDA Forest Service, Southern Research Station); Lu Zhai (Oklahoma State University); Courtney Meier (Battelle-NEON); Michael Langley (USDA Forest Service, Southern Research Station); Sabrie Breland (USDA Forest Service, USFS-Savannah River)
 
-## 
-
-† If you haven't read Jenny Bryan's post on project oriented workflows, please do so! <https://www.tidyverse.org/blog/2017/12/workflow-vs-script/>
+&nbsp; 
+&nbsp;
+&nbsp; 
 
 ## References:
 
