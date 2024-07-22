@@ -51,9 +51,12 @@ Source data files used in the creation of this data product are included in the 
 
 ![Figure 2. Workflow diagram illustrating the process from which measurements of individual tree diameter is taken and then processed into aboveground biomass (AGB) estimates.](https://raw.githubusercontent.com/atkinsjeff/NEONForestAGB/main/summary/Fig1Workflow.png)
 
+## Licensing
+All derived data products, code, and scripts are supported and covered by a CC0 1.0 Universal license. <https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt> 
+
 ## Authors
 
-Jeff W. Atkins (USDA Forest Service, Southern Research Station); Lu Zhai (Oklahoma State University); Courtney Meier (Battelle-NEON); Michael Langley (USDA Forest Service, Southern Research Station); Sabrie Breland (USDA Forest Service, USFS-Savannah River)
+Jeff W. Atkins (USDA Forest Service, Southern Research Station); Brandon Alveshere (Virginia Commonwealth University); Lu Zhai (Oklahoma State University); Courtney Meier (Battelle-NEON); Michael Langley (USDA Forest Service, Southern Research Station); Sabrie Breland (USDA Forest Service, USFS-Savannah River)
 
 &nbsp; 
 &nbsp;
@@ -66,6 +69,10 @@ Atkins, Jeff; Meier, Courtney; Alveshere, Brandon; Breland, Sabrie; Langley, Mic
 Chojnacky, D. C., Heath, L. S., & Jenkins, J. C. (2014). Updated generalized biomass equations for North American tree species. *Forestry*, *87*(1), 129-151.
 
 Jenkins, J. C., Chojnacky, D. C., Heath, L. S., & Birdsey, R. A. (2003). National-scale biomass estimators for United States tree species. Forest science, 49(1), 12-35.
+
+National Ecological Observatory Network (NEON). (2021). Woody plant vegetation structure (DP1.10098.001): RELEASE-2021 (RELEASE-2021, p. 624.3 MB) [csv]. National Ecological Observatory Network (NEON). https://doi.org/10.48443/E3QN-XW47 
+
+NEON (2023). NEON.DOC.000987-TOS Protocol and Procedure: VST Measurement of Vegetation Structure. https://data.neonscience.org/documents/10179/1883155/NEON.DOC.000987vM/4ff8197 e-3858-6cd8-e3f7-6babf96b2482
 
 Ter-Mikaelian, M. T., and M. D. Korzukhin. 1997. Biomass equations for sixty-five North American tree species. Forest Ecology and Management 97:1--24.
 
