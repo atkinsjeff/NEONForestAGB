@@ -1,6 +1,13 @@
+# Map and analysis script.
+# This scrip imports site coordinates to generate a map that is included in the manuscrip (XXXX). 
+# Additionally, included code provides some perfunctory tables for looking at data
+# and how those data differ by various factors. Finally, lm regressions are run
+# to show differences via RMSE etc. in how allometries estimate biomass
+# for individuals. 
+# 
+# contact Jeff W. Atkins for anything:  jeffrey.atkins@usda.gov or jwatkins6@vcu.edu
 
 # SITE MAP
-#Rice maps
 require(maps)
 require(mapdata)
 require(maptools)

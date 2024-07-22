@@ -11,7 +11,7 @@ require(tidyverse)
 #df <- read.csv("./summary/NEONForestAGB_20240321.csv")
 df <- read.csv("./summary/NEONForestAGB_20240405.csv")
 
-# sorted
+# sorted out varaibles needed for final product
 x <- df[ ,c("domainID",
             "siteID",
             "plotID",
@@ -34,6 +34,7 @@ x <- df[ ,c("domainID",
             "AGBAnnighofer",
             "qualityFlag")]
 
+# sorting down to format data
 df %>%
   filter(est.dbh < 0 & growthForm == "sapling") %>%
   data.frame() -> shorty
@@ -45,7 +46,7 @@ df %>%
 
 table(df.ind$growthForm)
 
-# make wide
+# make wide for AGB product
 x %>% 
   pivot_longer(
     cols = starts_with("AGB"),

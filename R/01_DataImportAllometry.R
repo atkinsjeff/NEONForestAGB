@@ -157,6 +157,8 @@ df.empty$AGBJenkins = NA
 df.empty$AGBChojnacky = NA
 df.empty$AGBAnnighofer = NA
   
+
+
 # bring together
 df.all <- rbind(df.stemD, df.stemB, df.empty)
 

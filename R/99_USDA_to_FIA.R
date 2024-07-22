@@ -1,5 +1,5 @@
 #USDA to FIA
-# This script matches FIA and USDA Taxon ID informationg in order to create
+# This script matches FIA and USDA Taxon ID information in order to create
 # a coherent way to sort, filter, and munge NEON data
 # 
 # Contact Jeff Atkins @ jeffrey.atkins@usda.gov or jwatkins6@vcu.edu
